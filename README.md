@@ -1,4 +1,4 @@
-# Solving-NLP-Problems
+# NLP
 
 *Sentence Level Classification Problems*
 ---------------------------------------------------------------------------------------------------
