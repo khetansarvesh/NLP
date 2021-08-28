@@ -5,16 +5,16 @@ Before performing any NLP Task it is important to convert natural language into 
 
 Notes: https://drive.google.com/drive/folders/1xIgG-IPXLbB8Q7L7lVAspF824WkpZNbz?usp=sharing
 
-*Natural Language Understanding (NLU) Task*
+# Natural Language Understanding (NLU) Task
 There are several NLP task of which one is NLU task.This task includes sentence level classification problems or token/word level classification problems
 
-*Sentence Level Classification Problems*
+## *Sentence Level Classification Problems*
 ---------------------------------------------------------------------------------------------------
 1. Sentimental Analysis using LSTM
 
    Notebook: https://drive.google.com/file/d/1CUzJb5AEHnHCUqfAqITicivZeqa3uG52/view?usp=sharing
    
-*Word Level Classification Problems*
+## *Word Level Classification Problems*
 -----------------------------------------------------------------------------------------------------
 currently notes of this is under making, will link it once completed
    
