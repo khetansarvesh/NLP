@@ -10,10 +10,14 @@ There are several NLP task of which one is NLU task.This task includes sentence 
 
 ## *Sentence Level Classification Problems*
 Please refer to following link which contains notes explaining how to handle this problem and 3 notebooks
+
    Notes : 
-   Notebook1 : https://drive.google.com/file/d/1CUzJb5AEHnHCUqfAqITicivZeqa3uG52/view?usp=sharing
-   Notebook2 :
-   Notebook3 : 
+   
+   Notebook1 : Sentimental Analysis of Movie Review without joint training https://drive.google.com/file/d/1CUzJb5AEHnHCUqfAqITicivZeqa3uG52/view?usp=sharing
+   
+   Notebook2 : Sentimental Analysis of Movie Review using joint training
+   
+   Notebook3 : Toxic Comment Classification Problem by fine tuning pre-trained DistilBERT Model
    
 ## *Word Level Classification Problems*
 currently notes of this is under making, will link it once completed
