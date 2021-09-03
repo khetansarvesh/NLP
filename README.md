@@ -41,4 +41,4 @@ There are again numerous NLG Tasks some of which are
 Currently I am making notes on this topic, once completed I will link them here
 
 ### *2. Image Captioning*
-Currently I am making notes on this topic, once completed I will link them here
+Notes : https://drive.google.com/drive/folders/1QqXHRttJEMVYgs7_4lvScFG2VcBcZ_Ho?usp=sharing
