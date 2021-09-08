@@ -37,8 +37,9 @@ Please refer to following link which contains notes explaining how to handle thi
 # Natural Language Generation (NLG) Task
 There are again numerous NLG Tasks some of which are
 
-### *1. Machine Translation*
-Currently I am making notes on this topic, once completed I will link them here
+### *1. Machine Translation (MT)*
+Notes : https://drive.google.com/drive/folders/1nB1wGCp0AEvpW7jN6-5ZSC7-e-Y-It6x?usp=sharing
+This folder contains a notebook which jointly trains English to French MT system containing a character level Unstacked LSTM Encoder and a character Level Unstacked LSTM Decoder
 
 ### *2. Image Captioning*
 Notes : https://drive.google.com/drive/folders/1QqXHRttJEMVYgs7_4lvScFG2VcBcZ_Ho?usp=sharing
