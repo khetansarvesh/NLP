@@ -11,13 +11,13 @@ There are several NLP task of which one is NLU task.This task includes sentence 
 ## *Sentence Level Classification Problems*
 Please refer to following link which contains notes explaining how to handle this problem and 3 notebooks
 
-   Notes : https://drive.google.com/drive/folders/1k0DjnHjitHRpmz-HoeFuMQ1kU-V8taYw?usp=sharing
+   Notes : https://drive.google.com/drive/folders/1V4_Qm_JsFwETFtkVzfA2wlfTkLHyIq4s?usp=sharing
    
-   Notebook1 : Sentimental Analysis of Movie Review without joint training https://colab.research.google.com/drive/1rNqEkn4k3g56oiTf1nWXiypHHWdFkHhZ?usp=sharing
+   Notebook1 : Sentimental Analysis of Movie Review without joint training https://drive.google.com/file/d/1aZYOBGfX276AHnTezDfbGzlOGIVOGydV/view?usp=sharing
    
-   Notebook2 : Sentimental Analysis of Movie Review using joint training https://colab.research.google.com/drive/1y938G9UPNT20fLfAKcsIcLrcsos1_YZV?usp=sharing
+   Notebook2 : Sentimental Analysis of Movie Review using joint training https://drive.google.com/file/d/1SuTKC7v85jF4apud6rgbntyAgDSfclcP/view?usp=sharing
    
-   Notebook3 : Toxic Comment Classification Problem by fine tuning pre-trained DistilBERT Model https://drive.google.com/file/d/1ZSjKyq1hCTopg3NHivnLo0_3vi_2UO1d/view?usp=sharing
+   Notebook3 : Toxic Comment Classification Problem by fine tuning pre-trained DistilBERT Model https://drive.google.com/file/d/1EmNKHSjoShsumlfmsUvau-MbMpGOBBLU/view?usp=sharing
    
 ## *Word Level Classification Problems*
 There can be numerous word level classification tasks, some of those are
