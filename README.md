@@ -9,8 +9,8 @@ Notes: https://drive.google.com/drive/folders/1Qyan1BEMC62uibJkjckfeKXTMeqJ5Vdw?
 There are several NLP task of which one is NLU task.This task includes sentence level classification problems or token/word level classification problems
 
 ## *Sentence Level Classification Problems*
-Please refer to following link which contains notes explaining how to handle this problem
 Notes : https://drive.google.com/drive/folders/1V4_Qm_JsFwETFtkVzfA2wlfTkLHyIq4s?usp=sharing
+Codes : 
 
 ## *Word Level Classification Problems*
 There can be numerous word level classification tasks, some of those are
