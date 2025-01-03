@@ -5,10 +5,10 @@
 <ins> Problem Statement </ins> : Given an input question we need to find text document(s) which contains answers to this input question
 
 <ins> Solution (RAG Based System) </ins> : 
-1. Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index)
-2. Now calculate similarity (query , Doc1) , (query , Doc2), ... 
-4. Perform ranking based on how similar the document is wrt the input query
-5. Output top K similar documents
+   - Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index)
+   - Now calculate similarity (query , Doc1) , (query , Doc2), ... 
+   - Perform ranking based on how similar the document is wrt the input query
+   - Output top K similar documents
 
 
 
