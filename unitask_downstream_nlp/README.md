@@ -27,7 +27,8 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 # ********** Non Generative Tasks -- Natural Language Understanding (NLU) Task ********** 
 - Sentence level classification problems
-- Token/word level classification problems
+- Token/word level classification problems : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+
 
 
 
