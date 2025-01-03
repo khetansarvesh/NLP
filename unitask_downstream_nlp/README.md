@@ -1,10 +1,31 @@
-# ********** Non Generative Tasks **********
+# ********** Similarity Search Based Tasks ********** 
 
-### 1. Text-2-Text Retrival
+### 1. Text-2-Text Retrival 
 
-### 2. Natural Language Understanding (NLU) Task
+
+### 2. Factoid QA / Reasoning QA 
+Problem Statement : You will be given a question and the answer needs to be ‘generated’ by looking into all the documents, remember ‘generated and not searched’ meaning answer given by the system would mean the same but the vocabulary and sentence framing might be different than what is found inside the documents
+
+Solution : 
+Simply use vector similarity approach i.e. create vector embedding of question and vector embedding of all the documents and then use similarity measure to find out what the answer is
+
+
+
+
+
+
+
+
+# ********** Non Generative Tasks -- Natural Language Understanding (NLU) Task ********** 
 - Sentence level classification problems
 - Token/word level classification problems
+
+
+
+
+
+
+
 
 # ********** Generative Tasks / Natural Language Generation (NLG) Tasks / Text-2-Text Tasks / Sequence-2-Sequence (Seq2Seq or S2S) Tasks **********
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
