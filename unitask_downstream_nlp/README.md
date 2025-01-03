@@ -25,7 +25,7 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 
 
-# ********** Non Generative Tasks -- Natural Language Understanding (NLU) Tasks ********** 
+# ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
 It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
 
 ### A. Classification Tasks : 
@@ -51,7 +51,7 @@ It has been observed that a Masked Language Model based base model gives better 
 
 
 
-# ********** Generative Tasks / Natural Language Generation (NLG) Tasks / Text2Text Tasks / Sequence2Sequence (Seq2Seq or S2S) Tasks / Sequence2Sequence Learning **********
+# ********** <ins> Generative Tasks / Natural Language Generation (NLG) Tasks / Text2Text Tasks / Sequence2Sequence (Seq2Seq or S2S) Tasks / Sequence2Sequence Learning </ins> **********
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT)
   2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization)
