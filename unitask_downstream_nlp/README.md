@@ -1,4 +1,6 @@
-![My Badge](https://img.shields.io/badge/Example-Badge-blue)
+<div style="border: 2px solid black; padding: 10px;">
+  This is a custom box with some content inside.
+</div>
 
 # ********** Similarity Search Based Tasks ********** 
 
