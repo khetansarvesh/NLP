@@ -1,4 +1,4 @@
-<div style="border: 2px solid black; padding: 10px;">
+<div style="border: 2px solid red; padding: 10px;">
   This is a custom box with some content inside.
 </div>
 
