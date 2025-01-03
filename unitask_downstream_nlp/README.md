@@ -2,9 +2,7 @@
 
 ### 1. Text-2-Text Retrival / Information Retrieval (IR)
 
-Problem Statement : 
-- Given an input question we need to find text document(s) which contains answers to this input question
-
+<u> Problem Statement </u> : Given an input question we need to find text document(s) which contains answers to this input question
 Solution (RAG Based System) : 
 1. Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index)
 2. Now calculate similarity (query , Doc1) , (query , Doc2), ... 
