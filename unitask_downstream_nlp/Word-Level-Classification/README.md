@@ -1,4 +1,10 @@
 # *Word Level Classification Problems*
+
+
+Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+
+It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. 
+
 There can be numerous word level classification tasks, some of those are
 
 ## *1. POS Tagging Task*
