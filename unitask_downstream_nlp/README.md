@@ -7,11 +7,11 @@ There are several NLP task of which one is NLU task.This task includes
 
 # Natural Language Generation (NLG) / Text-2-Text / Sequence-2-Sequence (Seq2Seq or S2S) Tasks
 - This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
-1. Machine Translation (MT)
-2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/generative_tasks/text_summarization)
-3. Paraphrasing
-4. Machine Transliteration
-5. DIalogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based
+  1. Machine Translation (MT)
+  2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/generative_tasks/text_summarization)
+  3. Paraphrasing
+  4. Machine Transliteration
+  5. DIalogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based
 
 
 
