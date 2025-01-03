@@ -26,11 +26,11 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 
 # ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
-It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
+This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
 
 ### 1. <ins> Classification Tasks </ins> : 
 - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
-- [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+- [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) 
 
 ### 2. <ins> Natural Language Inference (NLI) Tasks </ins> :
 - [Recognizing Textual Entailment](https://aclweb.org/aclwiki/Recognizing_Textual_Entailment) (RTE) : Determine if a sentence entails a given hypothesis or not.
