@@ -28,7 +28,6 @@
 
 
 # ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
-This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
 
 ### 1. <ins> Classification Tasks </ins> : 
 - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
