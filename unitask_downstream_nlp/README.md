@@ -1,11 +1,13 @@
-# Text-2-Text Retrival
+# ********** Non Generative Tasks **********
 
-# Natural Language Understanding (NLU) Task
+### 1. Text-2-Text Retrival
+
+### 2. Natural Language Understanding (NLU) Task
 There are several NLP task of which one is NLU task.This task includes 
-1. Sentence level classification problems
-2. Token/word level classification problems
+- Sentence level classification problems
+- Token/word level classification problems
 
-# Natural Language Generation (NLG) / Text-2-Text / Sequence-2-Sequence (Seq2Seq or S2S) Tasks
+# ********** Generative Tasks / Natural Language Generation (NLG) / Text-2-Text / Sequence-2-Sequence (Seq2Seq or S2S) Tasks **********
 - This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT)
   2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/generative_tasks/text_summarization)
