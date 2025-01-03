@@ -28,19 +28,15 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 # ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
 It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
 
-### A. <ins> Classification Tasks </ins> : 
-1. [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
-2. [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+### 1. <ins> Classification Tasks </ins> : 
+- [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
+- [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
 
-### B. <ins> Natural Language Inference (NLI) Tasks </ins> :
-1. [Recognizing Textual Entailment](https://aclweb.org/aclwiki/Recognizing_Textual_Entailment) (RTE)
-   - Determine if a sentence entails a given hypothesis or not.
-3. [Multi-Genre Natural Language Inference](https://arxiv.org/abs/1704.05426) (MNLI)
-   - Determines if a sentence entails, contradicts or is unrelated to a given hypothesis. (This dataset has two versions, one with the validation and test set coming from the same distribution, another called mismatched where the validation and test use out-of-domain data.)
-4. [Winograd Natural Language Inference](https://cs.nyu.edu/~davise/papers/WinogradSchemas/WS.html) (WNLI)
-   - Determine if a sentence with an anonymous pronoun and a sentence with this pronoun replaced are entailed or not. (This dataset is built from the Winograd Schema Challenge dataset.)
-5. [Question-answering Natural Language Inference](https://rajpurkar.github.io/SQuAD-explorer/) (QNLI)
-   - Determines if the answer to a question is in the second sentence or not. (This dataset is built from the SQuAD dataset.)
+### 2. <ins> Natural Language Inference (NLI) Tasks </ins> :
+- [Recognizing Textual Entailment](https://aclweb.org/aclwiki/Recognizing_Textual_Entailment) (RTE) : Determine if a sentence entails a given hypothesis or not.
+- [Multi-Genre Natural Language Inference](https://arxiv.org/abs/1704.05426) (MNLI) : Determines if a sentence entails, contradicts or is unrelated to a given hypothesis. (This dataset has two versions, one with the validation and test set coming from the same distribution, another called mismatched where the validation and test use out-of-domain data.)
+- [Winograd Natural Language Inference](https://cs.nyu.edu/~davise/papers/WinogradSchemas/WS.html) (WNLI) : Determine if a sentence with an anonymous pronoun and a sentence with this pronoun replaced are entailed or not. (This dataset is built from the Winograd Schema Challenge dataset.)
+- [Question-answering Natural Language Inference](https://rajpurkar.github.io/SQuAD-explorer/) (QNLI) : Determines if the answer to a question is in the second sentence or not. (This dataset is built from the SQuAD dataset.)
 
 
 
