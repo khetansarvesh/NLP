@@ -10,3 +10,13 @@ Please refer to following link which contains notes explaining how to handle thi
 Please refer to following link which contains notes explaining how to handle this problem, this is exactly similar to the POS Tagging Task except the fact that POS Tagging is a 36 class classification problem which NER is just 7 class classification problem, and rest everything is exactly same.
    
    Notes : https://drive.google.com/file/d/1721ThVhU8lX-4Y3XiVOiFU8pGJSzjfk2/view?usp=sharing
+
+
+
+Token / Word Level Classification Tasks (also called Sequence Labeling/ Learning/ Tagging Task)
+Parts of Speech (POS) Tagging
+Name Entity Recognition (NER)
+Chunking
+Word Sense Disambiguation (WSD) / Semantic Tagging
+Parsing
+Discourse and Coreference Resolution …
