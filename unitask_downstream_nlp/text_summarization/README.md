@@ -1,4 +1,4 @@
-# Abstractive vs Extractive Summarization
+# <ins> Abstractive vs Extractive Summarization </ins>
 
 ### Extractive Summarization (no more used cause abstractive has become easy and norm nowadays)
 - Given a document of 100 lines, you summarize it into 10 lines by just picking 10 lines out of the 100 ‘as it is’.
@@ -9,7 +9,7 @@
 - This is a NLG Task
 - CNN Daily News Dataset can be used
 
-# Generic vs Query Based vs User Focused
+# <ins> Generic vs Query Based vs User Focused </ins>
 
 ### Generic 
 - Summaries the entire document eg say you have a document of world war 1 and you want a summary of above document
@@ -20,13 +20,13 @@
 ### User Based
 - Say you have a document on world war 1 and you want to generate a summary of entire document for a 5 yr old vs a historian
 
-# Based on Output Format
+# <ins> Based on Output Format </ins>
 - Summaries in textual form (Paragraphs)
 - Summaries in form of bullet points
 - Summaries in form of table
 
 
-# Monolingual vs Cross-lingual Summarization
+# <ins> Monolingual vs Cross-lingual Summarization </ins>
 
 ### Monolingual Summarization
 - Say the document was in english and you need to summarize it in english
@@ -35,4 +35,4 @@
 - Say the document was in english and you need to summarize it in French
 
 
-# Single-Document Summarization vs Multi-Document Summarization
+# <ins> Single-Document Summarization vs Multi-Document Summarization </ins>
