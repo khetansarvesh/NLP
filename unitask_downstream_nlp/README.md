@@ -3,7 +3,6 @@
 ### 1. Text-2-Text Retrival
 
 ### 2. Natural Language Understanding (NLU) Task
-There are several NLP task of which one is NLU task.This task includes 
 - Sentence level classification problems
 - Token/word level classification problems
 
