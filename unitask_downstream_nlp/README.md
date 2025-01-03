@@ -1,6 +1,6 @@
 # ********** <ins> Similarity Search Based Tasks </ins> ********** 
 
-### 1. Text-2-Text Retrival / Information Retrieval (IR)
+### 1. <ins> Text-2-Text Retrival / Information Retrieval (IR) </ins>
 
 <ins> Problem Statement </ins> : Given an input question we need to find text document(s) which contains answers to this input question
 
@@ -12,7 +12,7 @@
 
 
 
-### 2. Factoid QA / Reasoning QA / Information Extraction (IE)
+### 2. <ins> Factoid QA / Reasoning QA / Information Extraction (IE) </ins>
 <ins> Problem Statement </ins> : Now let's say from above IR system you identified 10 documents relevant to your input query, now your task is to 'generate' an answer by looking into all these 10 documents. Remember ‘generated and not searched’ meaning answer given by the system would mean the same but the vocabulary and sentence framing might be different than what is found inside the documents
 
 <ins> Solution </ins> : 
@@ -28,11 +28,11 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 # ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
 It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. This is a family of tasks which includes tasks in which we understand the dataset given. It consists of following tasks : 
 
-### A. Classification Tasks : 
+### A. <ins> Classification Tasks </ins> : 
 1. [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
 2. [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
 
-### B. Natural Language Inference (NLI) Tasks
+### B. <ins> Natural Language Inference (NLI) Tasks </ins> :
 1. [Recognizing Textual Entailment](https://aclweb.org/aclwiki/Recognizing_Textual_Entailment) (RTE)
    - Determine if a sentence entails a given hypothesis or not.
 3. [Multi-Genre Natural Language Inference](https://arxiv.org/abs/1704.05426) (MNLI)
