@@ -26,8 +26,8 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 
 # ********** Non Generative Tasks -- Natural Language Understanding (NLU) Task ********** 
-- Sentence level classification problems
-- Token/word level classification problems (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+- [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
+- [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
 
 
 
