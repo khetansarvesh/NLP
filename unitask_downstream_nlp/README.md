@@ -27,7 +27,7 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 # ********** Non Generative Tasks -- Natural Language Understanding (NLU) Task ********** 
 - Sentence level classification problems
-- Token/word level classification problems : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
+- Token/word level classification problems (also called Sequence Learning) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something.
 
 
 
@@ -37,7 +37,7 @@ You can simply pass the input question and these 10 documents in an LLM to extra
 
 
 
-# ********** Generative Tasks / Natural Language Generation (NLG) Tasks / Text-2-Text Tasks / Sequence-2-Sequence (Seq2Seq or S2S) Tasks **********
+# ********** Generative Tasks / Natural Language Generation (NLG) Tasks / Text2Text Tasks / Sequence2Sequence (Seq2Seq or S2S) Tasks / Sequence2Sequence Learning **********
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT)
   2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization)
