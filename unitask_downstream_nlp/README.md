@@ -1,3 +1,5 @@
+![My Badge](https://img.shields.io/badge/Example-Badge-blue)
+
 # ********** Similarity Search Based Tasks ********** 
 
 ### 1. Text-2-Text Retrival 
