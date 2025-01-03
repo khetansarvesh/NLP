@@ -1,4 +1,4 @@
-# ********** Similarity Search Based Tasks ********** 
+# ********** <ins> Similarity Search Based Tasks </ins> ********** 
 
 ### 1. Text-2-Text Retrival / Information Retrieval (IR)
 
