@@ -6,15 +6,10 @@ Problem Statement :
 - Given an input question we need to find text document(s) which contains answers to this input question
 
 Solution (RAG Based System) : 
-1. Create embeddings and store it in a vector database (also called index)
-    - Query -> make vector embedding
-    - Doc 1 -> make vector embedding using sentence embedding or word embedding (contextual or non contextual) 
-    - Doc 2 -> make vector embedding using sentence embedding or word embedding (contextual or non contextual) 
-2. Now calculate similarity (query , Doc1) , (query , Doc2), ….. - if close to 1 means highly similar else not similar 
-    - STS-B (Semantic Textual Similarity Benchmark) Determine the similarity of two sentences with a score from 1 to 5.
-    - MRPC (Microsoft Research Paraphrase Corpus) Determines if two sentences are paraphrases from one another or not.
-3. Perform ranking based on how similar the document is wrt the input query
-4. Output top K similar documents to the query
+1. Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index)
+2. Now calculate similarity (query , Doc1) , (query , Doc2), ... 
+4. Perform ranking based on how similar the document is wrt the input query
+5. Output top K similar documents
 
 
 
