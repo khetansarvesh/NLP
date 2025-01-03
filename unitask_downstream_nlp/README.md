@@ -7,7 +7,7 @@ There are several NLP task of which one is NLU task.This task includes
 - Sentence level classification problems
 - Token/word level classification problems
 
-# ********** Generative Tasks / Natural Language Generation (NLG) / Text-2-Text / Sequence-2-Sequence (Seq2Seq or S2S) Tasks **********
+# ********** Generative Tasks / Natural Language Generation (NLG) Tasks / Text-2-Text Tasks / Sequence-2-Sequence (Seq2Seq or S2S) Tasks **********
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT)
   2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization)
