@@ -1,6 +1,6 @@
 # *Sentence Level Classification Task*
 
-One of the most famous Sentenece Level Classification Task is [Sentimental Analysis](). Other similar type of task are as follows (you can solve all these tasks using the same architecture as we saw in Sentiment Analysis just that you need to change the dataset)
+One of the most famous Sentenece Level Classification Task is [Sentimental Analysis](https://khetansarvesh.medium.com/sentimental-analysis-using-deep-learning-3a2dee80cf77). Other similar type of task are as follows (you can solve all these tasks using the same architecture as we saw in Sentiment Analysis just that you need to change the dataset)
 
 1. Spam Mail Detection
    - Given a mail, you need to classify if it is spam or not spam (ham)
