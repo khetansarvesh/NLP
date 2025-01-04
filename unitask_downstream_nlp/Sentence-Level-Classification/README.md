@@ -1,6 +1,6 @@
 # *Sentence Level Classification Task*
 
-One of the most famous Sentenece Level Classification Task is Sentimental Analysis, we will see how to perform sentiment analysis on Movie Dataset here
+One of the most famous Sentenece Level Classification Task is Sentimental Analysis
 
 
 
