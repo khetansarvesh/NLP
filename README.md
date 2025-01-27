@@ -19,7 +19,7 @@
       - FLAN PALM by Google
 
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
-      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3
+      - InstructGPT by openAI:- Based Model used was GPT3
       - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
       - Google FLANG PALM:- Base Model used was PALM
       - Google FLANG T5:- Base Model used was T5
@@ -30,7 +30,7 @@
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
       -  Models finetuned for Chatbot Tasks
-         - GPT3.5
+         - ChatGPT / GPT3.5
          - CLaude
          - Dolly 2.0 by Databricks
          - Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
