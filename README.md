@@ -21,11 +21,11 @@
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
       - InstructGPT by openAI:- Based Model used was GPT3
       - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
-      - Google FLANG PALM:- Base Model used was PALM
+      - [Google FLANG PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
       - Google FLANG T5:- Base Model used was T5
       - Google FLANG U PALM:- Base Model used was U PALM
-      - Google MED PALM Based Model used was FLAN PALM
-      - OPT-IML by Meta
+      - [Google MED PALM](https://www.youtube.com/watch?v=KBVpxR3w5G8) :- Base Model used was FLAN PALM
+      - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
       - Llama by Meta
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
