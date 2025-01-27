@@ -1,4 +1,4 @@
-# $\color{cyan}{Similarity\ Search\ Based\ Tasks\ }$
+# $\color{yellow}{Similarity\ Search\ Based\ Tasks\ }$
 ### 1. <ins> Text-2-Text Retrival / Information Retrieval (IR) </ins>
 
 <ins> Problem Statement </ins> : 
