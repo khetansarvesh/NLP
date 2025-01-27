@@ -15,13 +15,12 @@
       - [FLaN by Google](https://www.youtube.com/watch?v=SQ2CHiaENMc) :- Base Model used was Google LaMDA and Google LaMDA2
       - PALM by Google
       - U PALM by Google
-      - FLAN PALM by Google
 
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
       - InstructGPT by openAI:- Based Model used was GPT3
-      - [Google FLANG PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
-      - Google FLANG T5:- Base Model used was T5
-      - Google FLANG U PALM:- Base Model used was U PALM
+      - [Google FLaN PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
+      - Google FLaN T5:- Base Model used was T5
+      - Google FLaN U PALM:- Base Model used was U PALM
       - [Google MED PALM](https://www.youtube.com/watch?v=KBVpxR3w5G8) :- Base Model used was FLAN PALM
       - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
       - Llama by Meta
