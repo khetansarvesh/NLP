@@ -12,13 +12,13 @@
       - T5
       - GPT3 by OpenAI
       - LaMDA by Google
+      - [FLaN by Google](https://www.youtube.com/watch?v=SQ2CHiaENMc) :- Base Model used was Google LaMDA and Google LaMDA2
       - PALM by Google
       - U PALM by Google
       - FLAN PALM by Google
 
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
       - InstructGPT by openAI:- Based Model used was GPT3
-      - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
       - [Google FLANG PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
       - Google FLANG T5:- Base Model used was T5
       - Google FLANG U PALM:- Base Model used was U PALM
