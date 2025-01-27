@@ -10,7 +10,8 @@
 - No one does this anymore with the rise of one single model that can do multiple tasks
 
 # MultiTask Downstream NLP
-   - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are GPT, Llama, Lambda2, ...
+   - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task).
+   - Here you can find a list of some famous multitask models
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit)
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
 
