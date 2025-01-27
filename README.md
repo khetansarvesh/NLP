@@ -10,19 +10,29 @@
 - No one does this anymore with the rise of one single model that can do multiple tasks
 
 # MultiTask Downstream NLP
-   - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task).
-   - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit)
-   - Here you can find a list of some famous multitask models
-   -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
-1. Models finetuned for Chatbot Tasks
-- GPT3.5
-- CLaude
-- Dolly 2.0 by Databricks
-- Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
-- Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
-- Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
+   - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
+      - GPT3
+      - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
+      - Google FLANG PALM:- Base Model used was PALM
+      - Google FLANG T5:- Base Model used was T5
+      - Google FLANG U PALM:- Base Model used was U PALM
+      - Google MED PALM Based Model used was FLAN PALM
+      - OPT-IML by Facebook
+      - Llama by Facebook
 
-2. Models finetuned for Code Generation Task
+   - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
+      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
+
+   -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
+      -  Models finetuned for Chatbot Tasks
+         - GPT3.5
+         - CLaude
+         - Dolly 2.0 by Databricks
+         - Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
+         - Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
+         - Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
+
+      - Models finetuned for Code Generation Task
 
 
 
