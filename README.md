@@ -6,11 +6,11 @@
 # Representation Learning / Pre-Training
 
 # UniTask Downstream NLP
-- Here we make different models for different types of tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+- Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 - No one does this anymore with the rise of one single model that can do multiple tasks
 
 # MultiTask Downstream NLP
-   - Here we create one single model which can handle multiple tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task)
+   - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are GPT, Llama, Lambda2, ...
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit)
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
 
