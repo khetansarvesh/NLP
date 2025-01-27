@@ -24,7 +24,7 @@
 
 
 
-# $\color{cyan}{Non\ Generative\ Based\ Tasks\ --\ Natural\ Language\ Understanding\ (NLU)\ Tasks\ }$
+# $\color{yellow}{Non\ Generative\ Based\ Tasks\ --\ Natural\ Language\ Understanding\ (NLU)\ Tasks\ }$
 ### 1. <ins> Classification Tasks </ins> : 
 - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
 - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) 
@@ -43,7 +43,7 @@
 
 
 
-# $\color{cyan}{  Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning\ }$
+# $\color{yellow}{  Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning\ }$
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT)
   2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
