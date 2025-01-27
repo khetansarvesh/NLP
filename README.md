@@ -2,6 +2,7 @@
 
 
 # Representation Learning / Pre-Training
+   - LaMDA by Google
 
 # UniTask Downstream NLP
 - Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
@@ -11,7 +12,6 @@
    - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
       - T5
       - GPT3 by OpenAI
-      - LaMDA by Google
       - [FLaN by Google](https://www.youtube.com/watch?v=SQ2CHiaENMc) :- Base Model used was Google LaMDA and Google LaMDA2
       - PALM by Google
       - U PALM by Google
