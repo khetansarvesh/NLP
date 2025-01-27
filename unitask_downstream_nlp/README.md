@@ -24,9 +24,10 @@
 
 
 
+# $\color{cyan}{Non\ Generative\ Based\ Tasks\ --\ Natural\ Language\ Understanding\ (NLU)\ Tasks\ }$
 
 
-# ********** <ins> Non Generative Tasks -- Natural Language Understanding (NLU) Tasks </ins> ********** 
+
 
 ### 1. <ins> Classification Tasks </ins> : 
 - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
