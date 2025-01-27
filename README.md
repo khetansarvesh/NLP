@@ -38,6 +38,10 @@
          - Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
 
       - Models finetuned for Code Generation Task
+         - CodeWhisper
+         - CodeX / Github Copilot : Fine tuned on GPT3 using publicly available code on github
+         - CodeBERT
+         - PyMT5
 
 
 
