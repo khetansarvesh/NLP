@@ -1,13 +1,13 @@
 # NLP
 
-# Representation Learning
+# Representation Learning / Pre-Training
 
 # Downstream NLP / Model Alignment / Instruction Tuning
 1. [UniTask Downstream Task](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
    - No one does this anymore with the rise of one single model that can do multiple tasks
 3. [MultiTask Downstream Task](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task)
 
-# Preference Alignment
+# Preference Alignment / Post-Training
 You can read complete details about this [here](https://medium.com/p/0b67777fa7af/edit)
 
 # Resources Used to Develop This
