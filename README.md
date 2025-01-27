@@ -11,17 +11,22 @@
 
 # MultiTask Downstream NLP
    - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
-      - GPT3
+      - T5
+      - GPT3 by OpenAI
+      - LaMDA by Google
+      - PALM by Google
+      - U PALM by Google
+      - FLAN PALM by Google
+
+   - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
+      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3
       - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
       - Google FLANG PALM:- Base Model used was PALM
       - Google FLANG T5:- Base Model used was T5
       - Google FLANG U PALM:- Base Model used was U PALM
       - Google MED PALM Based Model used was FLAN PALM
-      - OPT-IML by Facebook
-      - Llama by Facebook
-
-   - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
-      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3
+      - OPT-IML by Meta
+      - Llama by Meta
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
       -  Models finetuned for Chatbot Tasks
