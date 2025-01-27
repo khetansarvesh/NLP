@@ -12,7 +12,8 @@
 # MultiTask Downstream NLP
    - Here we create one single model which can handle multiple tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task)
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit)
-   -  
+   -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
+
 
 # Resources Used to Develop This
 1. [Standford CS224N - 2016](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
