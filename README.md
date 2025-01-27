@@ -21,7 +21,7 @@
       - Llama by Facebook
 
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit). Some famous models are :
-      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
+      - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
       -  Models finetuned for Chatbot Tasks
