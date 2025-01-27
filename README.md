@@ -14,6 +14,14 @@
    - Here you can find a list of some famous multitask models
    - [Preference Alignment / Post Training](https://medium.com/p/0b67777fa7af/edit)
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
+1. Models finetuned for Chatbot Tasks
+a. GPT3.5
+b. CLaude
+c. Dolly 2.0 by Databricks
+d. Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
+e. Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
+f. Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
+
 
 
 # Resources Used to Develop This
