@@ -24,8 +24,8 @@
       - Llama by Meta
 
 # Downstream NLP
-- With model able to to multiple tasks, you just need to do prompting to solve a problem for a given downstream task
-- But if prompting does not work well, then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+- With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem
+- But if prompting does not work well (incases where such a task was not trained during the training of multitask foundation model), then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
   
 # Resources Used to Develop This
 1. [Standford CS224N - 2016](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
