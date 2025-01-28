@@ -26,24 +26,7 @@
 # Downstream NLP
 - With model able to to multiple tasks, you just need to do prompting to solve a problem for a given downstream task
 - But if prompting does not work well, then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
-
-   -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
-      -  Models finetuned for Chatbot Tasks
-         - ChatGPT / GPT3.5
-         - CLaude
-         - Dolly 2.0 by Databricks
-         - Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
-         - Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
-         - Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
-
-      - Models finetuned for Code Generation Task
-         - CodeWhisper
-         - CodeX / Github Copilot : Fine tuned on GPT3 using publicly available code on github
-         - CodeBERT
-         - PyMT5
-
-
-
+  
 # Resources Used to Develop This
 1. [Standford CS224N - 2016](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
 2. [Standford CS224N - 2021](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4)
