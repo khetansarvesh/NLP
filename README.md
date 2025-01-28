@@ -1,7 +1,7 @@
 # Data Preprocessing
 
 
-# Representation Learning / Pre-Training
+# Representation Learning
 
 ### a. Next Word Prediction Task
    - LaMDA by Google
@@ -23,7 +23,7 @@
       - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
       - Llama by Meta
 
-# UniTask Downstream NLP : 1 Model 1 Task
+# Downstream NLP
 - Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 - No one does this anymore with the rise of one single model that can do multiple tasks
 
