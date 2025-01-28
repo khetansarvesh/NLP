@@ -7,7 +7,7 @@
    - LaMDA by Google
 ### b. Fill in the blank Task
 ### c. Multiple Tasks
-   - Here we create one single model which can handle multiple tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
+   - [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
       - T5
       - GPT3 by OpenAI
       - [FLaN by Google](https://www.youtube.com/watch?v=SQ2CHiaENMc) :- Base Model used was Google LaMDA and Google LaMDA2
