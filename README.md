@@ -2,13 +2,12 @@
 
 
 # Representation Learning / Pre-Training
+
    - LaMDA by Google
 
-# UniTask Downstream NLP : 1 Model 1 Task
-- Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
-- No one does this anymore with the rise of one single model that can do multiple tasks
-
-# MultiTask Downstream NLP : 1 Model N Tasks
+### Next Word Prediction Task
+### Fill in the blank Task
+### Multiple Tasks
    - Here we create one single model which can handle multiple downstream tasks, this is called [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
       - T5
       - GPT3 by OpenAI
@@ -24,6 +23,13 @@
       - [Google MED PALM](https://www.youtube.com/watch?v=KBVpxR3w5G8) :- Base Model used was FLAN PALM
       - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
       - Llama by Meta
+
+# UniTask Downstream NLP : 1 Model 1 Task
+- Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+- No one does this anymore with the rise of one single model that can do multiple tasks
+
+
+
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
       -  Models finetuned for Chatbot Tasks
