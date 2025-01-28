@@ -6,7 +6,7 @@
 ### a. Next Word Prediction Task
    - LaMDA by Google
 ### b. Fill in the blank Task
-### c. Multiple Tasks : Researchers thought that if we can train a model that can perform a set of multiple tasks then it will be able to generalize to other tasks that it has not seen during the training.(Well their hypothesis turned out to be correct !!)
+### c. Multiple Tasks : Researchers thought that if we can train a model that can perform a set of multiple tasks then it will be able to generalize to other tasks that it has not seen during the training.(Well their hypothesis turned out to be correct !!) Along with mutliple tasks you can add multiple languages too here to make the model Multilingual too !!
    - [Model Alignment / Instruction Tuning](https://github.com/khetansarvesh/NLP/tree/main/multitask_downstream_task). Some famous models are
       - T5
       - GPT3 by OpenAI
