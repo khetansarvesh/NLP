@@ -24,9 +24,8 @@
       - Llama by Meta
 
 # Downstream NLP
-- Here we make different models for different types of downstream tasks. You can learn more about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
-- No one does this anymore with the rise of one single model that can do multiple tasks
-
+- With model able to to multiple tasks, you just need to do prompting to solve a problem for a given downstream task
+- But if prompting does not work well, then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
    -  Now once we have a model that can do multiple tasks, we can now finetune such a model for one specific task. For instance
       -  Models finetuned for Chatbot Tasks
