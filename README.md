@@ -5,7 +5,9 @@
 - Sentence Representation
 - Word Representation
 - Character Representation
-- Subword Representation
+  - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters 
+- Subword Representation (everyone uses this)
+  - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords. Now we get subwords we use an algorithm called Byte Pair Encoding (BPE) 
 
 
 # Downstream NLP
