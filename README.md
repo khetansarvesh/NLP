@@ -2,8 +2,10 @@
 
 
 # Representation Learning
-
-   - LaMDA by Google
+- Sentence Representation
+- Word Representation
+- Character Representation
+- Subword Representation
 
 
 # Downstream NLP
