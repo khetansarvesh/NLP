@@ -11,12 +11,14 @@
 
 
 # Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
-- With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem
-- But if prompting does not work well (incases where such a task was not trained during the training of multitask foundation model), then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+- With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem.
+- But many times prompting does not work well, this is called HALLUCINATION PROBLEM. The model would sometimes give wrong answers to prompted questions (incases where such a task was not trained during the training of multitask foundation model)
+- To solve this hallucination probelm you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
 # AI / Preference Alignment (###posttraining)
 - Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
-- Methods to solve preference problems are called preference alignment. There are two ways to do so ([More details can be found here](https://medium.com/p/0b67777fa7af/edit))
+- This was called as PREFERENCE PROBLEM
+- Methods to solve preference problem are called preference alignment. There are two ways to do so ([More details can be found here](https://medium.com/p/0b67777fa7af/edit))
   - Fine Tuning LLM with human preference using Reinforcement Learning – RLHF Algorithm
   - Fine tuning LLM with human preferences using Supervised Learning – DPO Algorithm
 - Some famous models are :
