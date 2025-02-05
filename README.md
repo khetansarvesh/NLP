@@ -1,7 +1,7 @@
 # Data Preprocessing
 
 
-# Representation Learning
+# Representation Learning (###pretraining)
 - Sentence Representation
 - Word Representation
 - Character Representation
@@ -10,11 +10,11 @@
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords. Now we get subwords we use an algorithm called Byte Pair Encoding (BPE) 
 
 
-# Downstream NLP (Supervised Fine Tuning - SFT)
+# Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
 - With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem
 - But if prompting does not work well (incases where such a task was not trained during the training of multitask foundation model), then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
-# AI / Preference Alignment
+# AI / Preference Alignment (###posttraining)
 - Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
 - Methods to solve preference problems are called preference alignment. There are two ways to do so ([More details can be found here](https://medium.com/p/0b67777fa7af/edit))
   - Fine Tuning LLM with human preference using Reinforcement Learning – RLHF Algorithm
