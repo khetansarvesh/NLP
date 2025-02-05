@@ -14,7 +14,7 @@
 - With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem
 - But if prompting does not work well (incases where such a task was not trained during the training of multitask foundation model), then you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
-# AI Alignment
+# AI / Preference Alignment
 
 # LLM Agents
 
