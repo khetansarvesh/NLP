@@ -10,7 +10,7 @@
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords. Now we get subwords we use an algorithm called Byte Pair Encoding (BPE) 
 
 
-# Downstream NLP (Supervised Fine Tuning - SFT) (Instruction Finetuning) (###posttraining)
+# Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
 - With foundation models that are able to do multiple tasks, you just need to do prompting to solve a single downstream task problem.
 - But many times prompting does not work well, this is called HALLUCINATION PROBLEM. The model would sometimes give wrong answers to prompted questions (incases where such a task was not trained during the training of multitask foundation model)
 - To solve this hallucination probelm you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
