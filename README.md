@@ -9,6 +9,15 @@
 - Subword Representation (everyone uses this)
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords. Now we get subwords we use an algorithm called Byte Pair Encoding (BPE) 
 
+- Some famous models are :
+  - InstructGPT by openAI:- Based Model used was GPT3
+  - [Google FLaN PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
+  - Google FLaN T5:- Base Model used was T5
+  - Google FLaN U PALM:- Base Model used was U PALM
+  - [Google MED PALM](https://www.youtube.com/watch?v=KBVpxR3w5G8) :- Base Model used was FLAN PALM
+  - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
+  - Llama by Meta
+
 
 # Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
 - With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
@@ -21,18 +30,6 @@
 - Methods to solve preference problem are called preference alignment. There are two ways to do so ([More details can be found here](https://medium.com/p/0b67777fa7af/edit))
   - Fine Tuning LLM with human preference using Reinforcement Learning – RLHF Algorithm
   - Fine tuning LLM with human preferences using Supervised Learning – DPO Algorithm
-- Some famous models are :
-  - InstructGPT by openAI:- Based Model used was GPT3
-  - [Google FLaN PALM](https://www.youtube.com/watch?v=NVITqBHqWM4&ab_channel=DataScienceGems):- Base Model used was PALM
-  - Google FLaN T5:- Base Model used was T5
-  - Google FLaN U PALM:- Base Model used was U PALM
-  - [Google MED PALM](https://www.youtube.com/watch?v=KBVpxR3w5G8) :- Base Model used was FLAN PALM
-  - [OPT-IML](https://www.youtube.com/watch?v=6YQbwZxTQX4&ab_channel=DataScienceGems) by Meta
-  - Llama by Meta
-
-
-
-
 
 # LLM Agents
 
