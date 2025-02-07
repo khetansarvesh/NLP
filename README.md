@@ -1,4 +1,18 @@
 # Data Preprocessing
+Following are some text processing you must think of doing, it is not necessary to do all these, it depends on the nlp task what text processing you want to do before doing that task
+- String Manipulation using [Regex](https://www.rexegg.com/regex-quickstart.html)
+- Tokenization
+- Stemming / [Lemmatization](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
+- Removing [Stopwords](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
+
+
+
+
+
+
+
+
+
 
 
 # Representation Learning (###pretraining)
@@ -9,10 +23,25 @@ We need to represent language mathematically i.e. given a corpus you need to con
 - Via [Subword Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/SubWord-RL) (everyone uses this)
 
 
+
+
+
+
+
+
+
 # Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
 - With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
 - But many times prompting does not work well, this is called HALLUCINATION PROBLEM. The model would sometimes give wrong answers to prompted questions (incases where such a task was not trained during the training of multitask foundation model)
 - To solve this hallucination probelm you can finetune the foundation models for specific tasks. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+
+
+
+
+
+
+
+
 
 # AI / Preference Alignment (###posttraining)
 - Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
@@ -21,7 +50,23 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - Fine Tuning LLM with human preference using Reinforcement Learning – RLHF Algorithm
   - Fine tuning LLM with human preferences using Supervised Learning – DPO Algorithm
 
+
+
+
+
+
+
+
 # LLM Agents
+
+
+
+
+
+
+
+
+
 
 
 # Resources Used to Develop This
