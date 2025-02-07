@@ -4,7 +4,7 @@
 # Representation Learning (###pretraining)
 We need to represent language mathematically i.e. given a corpus you need to convert this corpus into its numerical form. This mathematical representation is called an embedding/context and the process is called representation learning. Why do this?? Because computers understand only numbers and not texts. We can do this in several ways:
 
-### 1. Via Sentence Embedding 
+### <ins> 1. Via Sentence Embedding </ins>
 I.e. to convert a paragraph into its numerical form we convert all the sentences in the paragraph into its numerical form first and then combine them via some way to get the numerical form of the paragraph.
 
   - Bag Of Words (BOWs) : [Theory](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/BOWs.pdf) || [Code](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/BOW.ipynb)
@@ -13,15 +13,15 @@ I.e. to convert a paragraph into its numerical form we convert all the sentences
  
 The problem with this type of approach is that they result in a numerical representation which consumes a lot of useless memory if we have a large corpus due to the sparse nature of the numerical representation given by them. Hence we had to come up with other techniques given below.
 
-### 2. Word Representation
+### <ins> 2. Word Representation </ins>
 I.e. to convert the corpus into its numerical form we convert all the words in the corpus into its numerical form first and then combine them in some way to get the numerical form of the corpus. 
 
 Now once we have got the numerical representation of all the words present in the corpus which is a 1*n row vector, to get the numeric representation of the corpus which will also be 1*n row vector you can either sum up all these numerical representations of words present in the corpus or you can average them out or ….. Consider this as a hyperparameter. 
 
-### 3. Character Representation
+### <ins> 3. Character Representation </ins>
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters
     
-### 4. Subword Representation (everyone uses this)
+### <ins> 4. Subword Representation (everyone uses this) </ins>
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords. Now we get subwords we use an algorithm called Byte Pair Encoding (BPE) 
 
 - Some famous models are :
