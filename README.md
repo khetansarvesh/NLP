@@ -1,6 +1,7 @@
 # Text Preprocessing
 Following are some text processing you must think of doing, it is not necessary to do all these, it depends on the nlp task what text processing you want to do before doing that task
 - String Manipulation using [Regex](https://www.rexegg.com/regex-quickstart.html)
+- Tokenization
 - Stemming & [Lemmatization](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
 - Removing [Stopwords](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
 
