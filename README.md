@@ -3,10 +3,10 @@
 
 # Representation Learning (###pretraining)
 We need to represent language mathematically i.e. given a corpus you need to convert this corpus into its numerical form. This mathematical representation is called an embedding/context and the process is called representation learning. Why do this?? Because computers understand only numbers and not texts. We can do this in several ways:
-- Via Sentence Embedding
-- Via Word Embedding
-- Via Character Embedding
-- Via Subword Embedding (everyone uses this)
+- Via [Sentence Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Sentence-RL)
+- Via [Word Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Word-RL)
+- Via [Character Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Char-RL)
+- Via [Subword Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/SubWord-RL) (everyone uses this)
 
 
 # Downstream NLP (Supervised Fine Tuning - SFT) (###posttraining)
