@@ -2,10 +2,10 @@
 
 
 # Representation Learning (###pretraining)
-- Sentence Representation
+- Sentence Representation : there are many methods in the literature but few prominent ones are
   - Bag Of Words (BOWs) : [Theory](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/BOWs.pdf) || [Code](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/BOW.ipynb)
-  - TFIDF : Theory || Code
-  - Label Encoding : Theory || Code
+  - TFIDF : Theory || [Code](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/TFIDF.ipynb)
+  - Label Encoding : Theory || [Code](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Sentence-RL/Label_Encoding.ipynb)
 - Word Representation
 - Character Representation
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters 
