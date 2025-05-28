@@ -36,15 +36,3 @@ https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/French2Englis
 # Transformer based model implementation in Pytorch
 https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/Transformers.ipynb
 
-
-
-# Videos
-
-https://www.youtube.com/watch?v=EoGUlvhRYpk
-
-https://www.youtube.com/watch?v=sQUqQddQtB4
-
-https://www.youtube.com/watch?v=U0s0f995w14&t=228s
-
-https://www.youtube.com/watch?v=M6adRGJe5cQ
-
