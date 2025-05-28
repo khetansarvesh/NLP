@@ -9,21 +9,6 @@ Translating a language A to language B is called monolingual machine translation
 
 
 
-
-# English2French (Keras)
-Encoder : Character level Unstacked LSTM
-Decoder : Character Level Unstacked LSTM
-
-https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/English2French.ipynb
-
-
-
-
-
-
-
-
-
 # French2English (Pytorch)
 Encoder : Word Level Unstacked Gated RNN
 Decodeer : Word Level Unstacked Gated RNN with attention
