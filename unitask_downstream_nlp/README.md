@@ -46,8 +46,8 @@
 # $\color{yellow}{  Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning\ }$
 This is a family of tasks in which we generate new sentences using input sentences. These include tasks like
   1. Machine Translation (MT) : Translating a language A to language B is called monolingual machine translation system eg english to hindi.
-         - The algorithms used to solve monolingual MT are called sequence2sequence models or conditional Language Modelling because we are generating a sequence of words from a sequence of words. There are many ways to solve MT problem proposed in past Deep Learning / Neural Machine Translation (NMT)
-         - It has been observed that a next subword prediction based base model gives better result compared to Masked Language Model based base model on NLG tasks
+      - The algorithms used to solve MT are called sequence2sequence models or conditional Language Modelling because we are generating a sequence of words from a sequence of words. There are many ways to solve MT problem proposed in past Deep Learning / Neural Machine Translation (NMT)
+      - It has been observed that a next subword prediction based base model gives better result compared to Masked Language Model based base model on NLG tasks
   3. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
   4. [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
   5. [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
