@@ -5,3 +5,43 @@ This folder contains a notebook which jointly trains English to French MT system
 
 Translating a language A to language B is called monolingual machine translation system eg english to hindi.
       - There are many ways to solve MT problems but we will use similar techniques to what we used to solve [Image2Text](https://pub.towardsai.net/natural-language-generation-x2text-tasks-78641031b033#1341) Problem i.e. Deep Learning / Neural Machine Translation (NMT) just that this time we will condition the language model on another text information rather than image information.
+
+
+
+
+
+# English2French (Keras)
+Encoder : Character level Unstacked LSTM
+Decoder : Character Level Unstacked LSTM
+
+https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/English2French.ipynb
+
+
+
+
+
+
+
+
+
+# French2English (Pytorch)
+Encoder : Word Level Unstacked Gated RNN
+Decodeer : Word Level Unstacked Gated RNN with attention
+
+https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/French2English%20(long%20sentences).ipynb
+
+
+
+
+# Transformer based model implementation in Pytorch
+https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/Transformers.ipynb
+
+
+
+
+
+https://www.youtube.com/watch?v=EoGUlvhRYpk
+https://www.youtube.com/watch?v=sQUqQddQtB4
+https://www.youtube.com/watch?v=U0s0f995w14&t=228s
+https://www.youtube.com/watch?v=M6adRGJe5cQ
+
