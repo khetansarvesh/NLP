@@ -45,24 +45,23 @@
 
 # $\color{yellow}{  Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning\ }$
 This is a family of tasks in which we generate new sentences using input sentences. It has been observed that a next subword prediction based foundation model gives better results compared to Masked Language Model based foundation model on NLG tasks. These include tasks like
-  1. Machine Translation (MT) : Translating a language A to language B is called monolingual machine translation system eg english to hindi.
-      - There are many ways to solve MT problems but we will use similar techniques to what we used to solve [Image2Text](https://pub.towardsai.net/natural-language-generation-x2text-tasks-78641031b033#1341) Problem i.e. Deep Learning / Neural Machine Translation (NMT) just that this time we will condition the language model on another text information rather than image information.
-  3. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  4. [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  5. [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  6. Dialogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based. Following are few famous models finetuned for Chatbot Tasks
+  1. Machine Translation (MT) : 
+  2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  3. [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  4. [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  5. Dialogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based. Following are few famous models finetuned for Chatbot Tasks
       - ChatGPT / GPT3.5
       - CLaude
       - Dolly 2.0 by Databricks
       - Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
       - Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
       - Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
-  7. Text2Code Generation : Following are few famous models finetuned for Text2Code Generation Tasks
+  6. Text2Code Generation : Following are few famous models finetuned for Text2Code Generation Tasks
       - CodeWhisper
       - CodeX / Github Copilot : Fine tuned on GPT3 using publicly available code on github
       - CodeBERT
       - PyMT5
-  8. In fact all NLU tasks can be framed as a NLG task, for instance
+  7. In fact all NLU tasks can be framed as a NLG task, for instance
      - Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
      - Similarly QA can be formed as a NLG task
 
