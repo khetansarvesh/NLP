@@ -9,13 +9,6 @@ Translating a language A to language B is called monolingual machine translation
 
 
 
-# French2English (Pytorch)
-Encoder : Word Level Unstacked Gated RNN
-Decodeer : Word Level Unstacked Gated RNN with attention
-
-https://github.com/khetansarvesh/NLP/blob/main/Machine-Translation/French2English%20(long%20sentences).ipynb
-
-
 
 
 # Transformer based model implementation in Pytorch
