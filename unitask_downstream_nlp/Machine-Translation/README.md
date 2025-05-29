@@ -6,5 +6,6 @@
 ![Alt text](base_img.png)
 
 - Following is the architecture diagram wherein we train the engligh text encoder from scratch
+![Alt text](txt_encoder.png)
 
 - Code for above architecture is available [here](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/Machine-Translation/machine_translation.ipynb)
