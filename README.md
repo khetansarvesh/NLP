@@ -56,7 +56,8 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 
-
+# Tool / Function Calling (###posttraining)
+Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
 # LLM Agents
 
