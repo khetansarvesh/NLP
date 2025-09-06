@@ -60,7 +60,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
 # LLM Agents
-
+There are many good frameworks but some of the good ones are Langraph and Autogen (supports communication between llms)
 
 
 
