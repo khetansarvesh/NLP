@@ -53,6 +53,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 
+# Reasoning Finetuning (###posttraining)
 
 
 
