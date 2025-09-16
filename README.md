@@ -54,7 +54,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 # Reasoning Finetuning (###posttraining)
-
+Nothing exceptional here, we just finetune the LLM (RL based finetuning, just like what we learnt for preference alignment) on a reasoning based dataset. Here I have finetuned a non reasoning model to a reasoning model using GRPO technique in RL.
 
 
 # Tool / Function Calling (###posttraining)
