@@ -39,7 +39,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 - Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundational LLM model using RL. More about this [here]().
 - We will learn finetuning a LLM using RL using following two tasks :
-  -  Reasoning LLM Task :  here we finetune an LLM to do reasoning. It has been proved previously that its better to first finetune LLM on reasoning dataset using SFT and then finetune it on the resoning dataset using RL.
+  -  <ins>Reasoning LLM Task</ins> :  here we finetune an LLM to do reasoning. It has been proved previously that its better to first finetune LLM on reasoning dataset using SFT and then finetune it on the resoning dataset using RL.
   -  Positive Sentiments Task : here we finetune an LLM to generate just positive sentiments for a given input non reasoning. 
 
 
