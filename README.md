@@ -38,13 +38,20 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 - Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundational LLM model using RL.
-- We will learn finetuning a LLM using RL using following two tasks : 
-  a. Reasoning LLM Task :  here we finetune an LLM to do reasoning. It has been proved previously that its better to first finetune LLM on reasoning dataset using SFT and then finetune it on the resoning dataset using RL.
-  b. Positive Sentiments Task : here we finetune an LLM to generate just positive sentiments for a given input non reasoning. 
+- We will learn finetuning a LLM using RL using following two tasks :
+  -  Reasoning LLM Task :  here we finetune an LLM to do reasoning. It has been proved previously that its better to first finetune LLM on reasoning dataset using SFT and then finetune it on the resoning dataset using RL.
+  -  Positive Sentiments Task : here we finetune an LLM to generate just positive sentiments for a given input non reasoning. 
 
 
 
-# AI / Preference Alignment (###posttraining)
+
+
+
+
+
+
+
+# $\color{cyan}{AI\ /\ Preference\ Alignment\ (posttraining) }$
 - Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
 - This was called as PREFERENCE PROBLEM
 - Methods to solve preference problem are called preference alignment. There are two ways to do so
@@ -60,12 +67,16 @@ We need to represent language mathematically i.e. given a corpus you need to con
 # Tool / Function Calling (###posttraining)
 Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
-# LLM Agents
+
+
+
+
+
+
+# $\color{cyan}{LLM\ Agents\}$
 There are many good frameworks but some of the good ones are Langraph and Autogen (supports communication between llms)
-
-
-[ReACT](https://arxiv.org/pdf/2210.03629) Paper
-[Reflection](https://proceedings.neurips.cc/paper_files/paper/2023/file/1b44b878bb782e6954cd888628510e90-Paper-Conference.pdf) Paper
+- [ReACT](https://arxiv.org/pdf/2210.03629) Paper
+- [Reflection](https://proceedings.neurips.cc/paper_files/paper/2023/file/1b44b878bb782e6954cd888628510e90-Paper-Conference.pdf) Paper
 
 
 
