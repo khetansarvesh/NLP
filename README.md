@@ -52,6 +52,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 # $\color{cyan}{AI\ /\ Preference\ Alignment\ (posttraining) }$
 - Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
 - This was called as PREFERENCE PROBLEM
+- Above we saw how to finetune an LLM using RL and here we will finetune on the preference dataset created by humans and hence it is called RLHF.
 - Methods to solve preference problem are called preference alignment. There are two ways to do so
   - Fine Tuning LLM with human preference using Reinforcement Learning – RLHF Algorithm
   - Fine tuning LLM with human preferences using Supervised Learning – DPO Algorithm
