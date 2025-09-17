@@ -40,6 +40,9 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 
+# Non Reasoning to Reasoning Modelling (###posttraining)
+Now above we saw how to finetune a foundational LLM model using SFT but we can also finetune a foundational LLM model using Reinforcement Learning. This is exactly how we convert a non reasoning model to a reasoning model i.e. by finetuning a LLM on reasoning dataset using RL. More information here. [Here in this colab notebook by Unsloth](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb#scrollTo=1pGRMY2m6aiu) we have finetuned a non reasoning model to a reasoning model using GRPO technique in RL.
+
 
 
 
@@ -53,8 +56,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 
-# Non Reasoning to Reasoning Modelling (###posttraining)
-Nothing exceptional here, we just finetune the LLM (RL based finetuning, just like what we learnt for preference alignment) on a reasoning based dataset. [Here in this colab notebook by Unsloth](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb#scrollTo=1pGRMY2m6aiu) we have finetuned a non reasoning model to a reasoning model using GRPO technique in RL.
+
 
 
 # Tool / Function Calling (###posttraining)
