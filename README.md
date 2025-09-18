@@ -37,7 +37,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
-- Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also [finetune a foundational LLM model using RL]().
+- Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also [finetune a foundational LLM model using RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6#3bd1).
 - It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes.
 
 
