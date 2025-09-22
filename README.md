@@ -49,9 +49,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 # $\color{cyan}{AI\ /\ Preference\ Alignment\ (posttraining) }$
-- Now once OpenAI made ChatGPT they found that if asked about some harmful activities like ‘tell me techniques to make rat poison at home’ then it would answer such questions too !! If tempted it would also use curse words / …. Hence it was lacking HUMAN ETHICS and if gotten in wrong hands could lead to bigger concerns. Hence researchers wanted to ALIGN the LLM outputs with human preferences.
-- This was called as PREFERENCE PROBLEM
-- Above we saw how to finetune an LLM using RL and here we will finetune on the preference dataset created by humans and hence it is called RLHF. More information available [here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af)
+More information available in this [medium](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) article.
 
 
 
