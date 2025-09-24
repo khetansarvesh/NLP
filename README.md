@@ -34,7 +34,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
   - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
 
-- Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning
+- Generative Tasks / Natural Language Generation (NLG) Tasks / Text2Text Tasks / Sequence2Sequence (Seq2Seq or S2S) Tasks / Sequence2Sequence Learning
 This is a family of tasks in which we generate new sentences using input sentences. It has been observed that a next subword prediction based foundation model gives better results compared to Masked Language Model based foundation model on NLG tasks. These include tasks like
   - [Machine Translation (MT)](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/Machine-Translation/README.md)
   - [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
@@ -52,7 +52,7 @@ This is a family of tasks in which we generate new sentences using input sentenc
       - CodeX / Github Copilot : Fine tuned on GPT3 using publicly available code on github
       - CodeBERT
       - PyMT5
-  - In fact all NLU tasks can be framed as a NLG task, for instance
+  - Instruction Tuning Task : In fact all NLU tasks can be framed as a NLG task, for instance
      - Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
      - Similarly QA can be formed as a NLG task
 
