@@ -30,35 +30,34 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 # $\color{cyan}{Downstream\ NLP\  (posttraining) }$
 ## $\color{yellow}{Supervised\ Fine\ Tuning\ (SFT) }$
-a. Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
-- [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
-- [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
+- Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
+  - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
+  - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
 
-b. Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning
+- Generative\ Tasks\ /\ Natural\ Language\ Generation\ (NLG)\ Tasks\ /\ Text2Text\ Tasks\ /\ Sequence2Sequence\ (Seq2Seq\ or\ S2S)\ Tasks\ /\ Sequence2Sequence\ Learning
 This is a family of tasks in which we generate new sentences using input sentences. It has been observed that a next subword prediction based foundation model gives better results compared to Masked Language Model based foundation model on NLG tasks. These include tasks like
-  1. [Machine Translation (MT)](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/Machine-Translation/README.md) : 
-  2. [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  3. [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  4. [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  5. Dialogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based. Following are few famous models finetuned for Chatbot Tasks
+  - [Machine Translation (MT)](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/Machine-Translation/README.md)
+  - [Text Summarization](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/text_summarization) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  - [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  - [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
+  - Dialogue Systems (Chatbots) : Earlier these were rule based Chatbots but now they are ML / DL based. Following are few famous models finetuned for Chatbot Tasks
       - ChatGPT / GPT3.5
       - CLaude
       - Dolly 2.0 by Databricks
       - Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
       - Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
       - Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
-  6. Text2Code Generation : Following are few famous models finetuned for Text2Code Generation Tasks
+  - Text2Code Generation : Following are few famous models finetuned for Text2Code Generation Tasks
       - CodeWhisper
       - CodeX / Github Copilot : Fine tuned on GPT3 using publicly available code on github
       - CodeBERT
       - PyMT5
-  7. In fact all NLU tasks can be framed as a NLG task, for instance
+  - In fact all NLU tasks can be framed as a NLG task, for instance
      - Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
      - Similarly QA can be formed as a NLG task
 
 
 
- More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
 
 
@@ -74,7 +73,7 @@ This is a family of tasks in which we generate new sentences using input sentenc
 
 
 
-# $\color{cyan}{Pposttraining}$
+# $\color{cyan}{Post-Training}$
 - AI / Preference Alignment : More information available in this [medium](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) article.
 - Tool / Function Calling Alignment : Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
@@ -88,6 +87,7 @@ This is a family of tasks in which we generate new sentences using input sentenc
 - With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
 - But many times prompting does not work well, this is called HALLUCINATION PROBLEM. The model would sometimes give wrong answers to prompted questions (incases where such a task was not trained during the training of multitask foundation model)
 - To solve this hallucination probelm you can finetune the foundation models for specific tasks.
+-  More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
 
 There are many good frameworks but some of the good ones are Langraph and Autogen (supports communication between llms)
