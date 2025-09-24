@@ -73,8 +73,8 @@ This is a family of tasks in which we generate new sentences using input sentenc
 
 
 
-# $\color{cyan}{Post-Training}$
-- AI / Preference Alignment : More information available in this [medium](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) article.
+# $\color{cyan}{Alignment\ (posttraining}$
+- [AI / Preference Alignment](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af)
 - Tool / Function Calling Alignment : Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
 
