@@ -48,14 +48,9 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 
-# $\color{cyan}{AI\ /\ Preference\ Alignment\ (posttraining) }$
-More information available in this [medium](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) article.
-
-
-
-
-# $\color{cyan}{Tool\ /\ Function\ Calling\ (posttraining) }$
-Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
+# $\color{cyan}{Pposttraining}$
+- AI / Preference Alignment : More information available in this [medium](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) article.
+- Tool / Function Calling Alignment : Now we finetune the LLM so that it can do tool / function calling, more on this [here](https://huggingface.co/learn/agents-course/en/bonus-unit1/introduction).
 
 
 
