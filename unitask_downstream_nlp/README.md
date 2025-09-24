@@ -24,19 +24,9 @@
 
 
 
-# $\color{yellow}{Non\ Generative\ Based\ Tasks\ --\ Natural\ Language\ Understanding\ (NLU)\ Tasks\ }$
-### 1. <ins> Classification Tasks </ins> : 
+# $\color{yellow}{Non\ Generative\ Based\ (Classification Tasks)\ --\ Natural\ Language\ Understanding\ (NLU)\ Tasks\ }$
 - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
 - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning) 
-
-### 2. <ins> Natural Language Inference (NLI) Tasks </ins> :
-- [Recognizing Textual Entailment](https://aclweb.org/aclwiki/Recognizing_Textual_Entailment) (RTE) : Determine if a sentence entails a given hypothesis or not.
-- [Multi-Genre Natural Language Inference](https://arxiv.org/abs/1704.05426) (MNLI) : Determines if a sentence entails, contradicts or is unrelated to a given hypothesis. (This dataset has two versions, one with the validation and test set coming from the same distribution, another called mismatched where the validation and test use out-of-domain data.)
-- [Winograd Natural Language Inference](https://cs.nyu.edu/~davise/papers/WinogradSchemas/WS.html) (WNLI) : Determine if a sentence with an anonymous pronoun and a sentence with this pronoun replaced are entailed or not. (This dataset is built from the Winograd Schema Challenge dataset.)
-- [Question-answering Natural Language Inference](https://rajpurkar.github.io/SQuAD-explorer/) (QNLI) : Determines if the answer to a question is in the second sentence or not. (This dataset is built from the SQuAD dataset.)
-
-
-
 
 
 
