@@ -1,3 +1,5 @@
+These have similar architecture to what we used in MT, just change the dataset!! There are differnt types of summarizations.
+
 # 1. <ins> Abstractive vs Extractive Summarization </ins>
 
 ### Extractive Summarization (no more used cause abstractive has become easy and norm nowadays)
