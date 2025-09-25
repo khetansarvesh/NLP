@@ -33,6 +33,10 @@ We need to represent language mathematically i.e. given a corpus you need to con
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
   - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
   - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
+    -
+    - Word Sense Disambiguation (WSD) / Semantic Tagging
+    - Parsing
+    - Discourse and Coreference Resolution
 
 - Generative Tasks / Natural Language Generation (NLG) Tasks / Text2Text Tasks / Sequence2Sequence (Seq2Seq or S2S) Tasks / Sequence2Sequence Learning
 This is a family of tasks in which we generate new sentences using input sentences. It has been observed that a next subword prediction based foundation model gives better results compared to Masked Language Model based foundation model on NLG tasks. These include tasks like
