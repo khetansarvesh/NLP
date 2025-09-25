@@ -11,16 +11,3 @@ a notebook which implements a single hidden layer LSTM RNN architechture joined 
       
 ## *2. Name Entity Recognition (NER) Task*
 this is exactly similar to the POS Tagging Task except the fact that POS Tagging is a 36 class classification problem which NER is just 7 class classification problem, and rest everything is exactly same.
-   
-
-## *3. Chunking*
-To do chunking you can use HMM seen in POS tagging. Chunks are identified using POS tags and their dependencies.
-- [InContext Learning](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/Word-Level-Classification/Chunking.ipynb)
-- FineTuning
-- Joint Training
-
-
-
-
-
-
