@@ -45,9 +45,9 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - [Text Summarization](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/text_summarization.md)
   - [Paraphrasing](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/paraphrase.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
   - [Machine Transliteration](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/trans.png) : Architecture similar to what we used in MT can be used here, just change the dataset!!
-  - Dialogue Systems (Chatbots)
-  - Text2Code Generation
-  - Instruction Tuning Task
+  - [Dialogue Systems (Chatbots)](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/dialogue_sys.md)
+  - [Text2Code Generation](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/text2code.md)
+  - [Instruction Tuning Task](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/instruction_tuning_task.md)
 
 
 
