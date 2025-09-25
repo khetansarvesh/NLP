@@ -32,6 +32,9 @@ We need to represent language mathematically i.e. given a corpus you need to con
 ## $\color{yellow}{Supervised\ Fine\ Tuning\ (SFT) }$
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
   - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
+    - Sentimental Analysis
+    - Spam Detection
+    -  
   - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
     - POS Tagging
     - Name Entity Recognision
