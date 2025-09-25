@@ -31,10 +31,13 @@ We need to represent language mathematically i.e. given a corpus you need to con
 # $\color{cyan}{Downstream\ NLP\  (posttraining) }$
 ## $\color{yellow}{Supervised\ Fine\ Tuning\ (SFT) }$
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
-  - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
-    - Sentimental Analysis
-    - Spam Detection
-    -  
+  - Sentence level classification Tasks : 
+    - [Sentimental Analysis](https://khetansarvesh.medium.com/sentimental-analysis-using-deep-learning-3a2dee80cf77) : Other similar type of task are as follows (you can solve all these tasks using the same architecture as we saw in Sentiment Analysis just that you need to change the dataset)
+    - Spam Mail Detection : Given a mail, you need to classify if it is spam or not spam (ham)
+    - Fake News Detection / Fact Checking Problem : Given a news sentence, you want to classify whether it is fake or not
+    - Movie Genre Classification Problem : Given a movie, classify what genre it belongs to eg action, comedy, adventure, RomCom, ...
+    - Linguistic Acceptability Problem :  Determine if a sentence is grammatically correct or not. Commonly used dataset for this task is [Corpus of Linguistic Acceptability (CoLA)](https://nyu-mll.github.io/CoLA/)
+    -  Toxic Comment Classification Problem : Given a comment you need to classify it if it is a toxic / severe_toxic / obscene / threat / insult / identity_hate. Each comment can be marked for multiple categories. 
   - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
     - POS Tagging
     - Name Entity Recognision
