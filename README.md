@@ -33,7 +33,9 @@ We need to represent language mathematically i.e. given a corpus you need to con
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
   - [Sentence level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Sentence-Level-Classification)
   - [Token/word level classification Tasks](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp/Word-Level-Classification) (also called Sequence Learning)
-    -
+    - POS Tagging
+    - Name Entity Recognision
+    - Chunking
     - Word Sense Disambiguation (WSD) / Semantic Tagging
     - Parsing
     - Discourse and Coreference Resolution
