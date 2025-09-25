@@ -55,6 +55,9 @@ This is a family of tasks in which we generate new sentences using input sentenc
   - Instruction Tuning Task : In fact all NLU tasks can be framed as a NLG task, for instance
      - Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
      - Similarly QA can be formed as a NLG task
+     - Llama 7B | 13B | 32B | 65B by meta
+     - Llama2 7B | 13B| 70B by meta
+
 
 
 
