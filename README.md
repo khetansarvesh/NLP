@@ -32,7 +32,8 @@ We need to represent language mathematically i.e. given a corpus you need to con
 ## $\color{yellow}{Supervised\ Fine\ Tuning\ (SFT) }$
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
   - [Sentence level classification Tasks](https://khetansarvesh.medium.com/sentimental-analysis-using-deep-learning-3a2dee80cf77)
-  - Token / Word level classification Tasks (also called Sequence Labeling/ Learning/ Tagging Task) : Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something. It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. There can be numerous word level classification tasks, some of those are
+  - <ins> Token / Word level classification Tasks (also called Sequence Labeling/ Learning/ Tagging Task) </ins> : 
+  Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something. It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. There can be numerous word level classification tasks, some of those are
     - POS Tagging
     - Name Entity Recognision
     - Chunking
