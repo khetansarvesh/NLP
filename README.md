@@ -35,7 +35,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - <ins> Token / Word level classification Tasks (also called Sequence Labeling/ Learning/ Tagging Task) </ins> : 
   Word / Token level classification problem is a problem in which you classify each word / token in the corpus as something. It has been observed that a Masked Language Model based base model gives better results compared to the next subword prediction based base model on NLU tasks. There can be numerous word level classification tasks, some of those are
     - POS Tagging
-    - Name Entity Recognision
+    - [Name Entity Recognision (NER) Tagging](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/ner.md)
     - Reading QA / Reading Comprehension
     - Token Level Languauge Identification : Classifying if a token / word is hindi or english
     - Chunking
