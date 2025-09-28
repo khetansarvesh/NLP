@@ -74,7 +74,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 # $\color{cyan}{Preference\ Alignment\ (posttraining) }$
-More information about this is available [here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af)
+There are two methods to do this, namely, RLHF and DPO. More information about this is available [here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af)
 
 
 
