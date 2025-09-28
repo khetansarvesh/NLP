@@ -31,13 +31,21 @@ This project demonstrates a simple Python script.
 
 ```python
 <|im_start|>system
-You are a helpful assistant focused on technical topics.<|im_end|>
+You are a helpful assistant focused on technical topics.
+<|im_end|>
+
 <|im_start|>user
-Hi there!<|im_end|>
+Hi there!
+<|im_end|>
+
 <|im_start|>assistant
-Nice to meet you!<|im_end|>
+Nice to meet you!
+<|im_end|>
+
 <|im_start|>user
-Can I ask a question?<|im_end|>
+Can I ask a question?
+<|im_end|>
+
 <|im_start|>assistant
 ```
 
