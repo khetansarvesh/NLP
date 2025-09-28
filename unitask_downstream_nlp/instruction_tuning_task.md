@@ -28,7 +28,7 @@ Some famous models are :
 
 ### C. Instruction Tuning with Chat + Tool Calling Template
 ----------------------------------------------------------
-
+Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face.
 
 # $\color{yellow}{Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
