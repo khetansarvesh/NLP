@@ -33,7 +33,7 @@ Along with multiple tasks you can add multiple languages too here to make the mo
 
 <|im_start|>assistant
 ```
-Some famous models are :
+Some famous models which are trained using chat template are :
 - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
 - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
 - Google FLANG PALM:- Base Model used was PALM
