@@ -26,9 +26,11 @@ Some famous models are :
 - Llama2 7B | 13B| 70B by meta
 
 ### B. Instruction Tuning with Chat Template
+----------------------------------------------------------
 
 
 ### C. Instruction Tuning with Chat + Tool Calling Template
+----------------------------------------------------------
 
 
 ## $\color{yellow}{Reasoning\ Mode}$
