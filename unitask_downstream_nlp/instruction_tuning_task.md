@@ -51,3 +51,17 @@ Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A
 
 # $\color{yellow}{Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
+
+
+
+```python
+<|im_start|>user
+What is 15 × 24?<|im_end|>
+<|im_start|>assistant
+<|thinking|>
+I need to multiply 15 by 24. Let me break this down:
+15 × 24 = 15 × (20 + 4) = (15 × 20) + (15 × 4) = 300 + 60 = 360
+</|thinking|>
+
+15 × 24 = 360<|im_end|>
+```
