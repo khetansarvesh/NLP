@@ -11,17 +11,6 @@ In fact all NLU tasks can be framed as a NLG task, for instance
 
 Along with multiple tasks you can add multiple languages too here to make the model Multilingual too !! Hence for fine-tuning, the entire model architecture remains the same just that in the dataset you include multiple tasks in multiple languages !!
 
-Some famous models are :
-- InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
-- Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
-- Google FLANG PALM:- Base Model used was PALM
-- Google FLANG T5:- Base Model used was T5
-- Google FLANG U PALM:- Base Model used was U PALM
-- Google MED PALM Based Model used was FLAN PALM
-- OPT-IML by Facebook
-- Llama 7B | 13B | 32B | 65B by meta
-- Llama2 7B | 13B| 70B by meta
-
 ### $\color{blue}{1.B.\ Instruction\ Tuning\ with\ Chat\ Template}$
 ----------------------------------------------------------
 
@@ -44,6 +33,16 @@ Some famous models are :
 
 <|im_start|>assistant
 ```
+Some famous models are :
+- InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
+- Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
+- Google FLANG PALM:- Base Model used was PALM
+- Google FLANG T5:- Base Model used was T5
+- Google FLANG U PALM:- Base Model used was U PALM
+- Google MED PALM Based Model used was FLAN PALM
+- OPT-IML by Facebook
+- Llama 7B | 13B | 32B | 65B by meta
+- Llama2 7B | 13B| 70B by meta
 
 ### $\color{blue}{1.C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
