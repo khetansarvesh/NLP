@@ -1,6 +1,3 @@
-# Instruction Tuning Task
-
-
 # $\color{yellow}{Normal\ Mode}$
 
 
