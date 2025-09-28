@@ -49,6 +49,38 @@ Can I ask a question?
 ----------------------------------------------------------
 Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face.
 
+```python
+<|im_start|>system
+## Metadata
+
+Knowledge Cutoff Date: June 2025
+Today Date: 01 September 2025
+Reasoning Mode: /think
+
+## Custom Instructions
+
+You are a helpful assistant with access to tools.
+
+### Tools
+
+You may call one or more functions to assist with the user query.
+You are provided with function signatures within <tools></tools> XML tags:
+
+<tools>
+{'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather for a location', 'parameters': {'type': 'object', 'properties': {'location': {'type': 'string', 'description': 'The city and state, e.g. San Francisco, CA'}, 'unit': {'type': 'string', 'enum': ['celsius', 'fahrenheit'], 'description': 'The temperature unit'}}, 'required': ['location']}}}
+{'type': 'function', 'function': {'name': 'calculate', 'description': 'Perform mathematical calculations', 'parameters': {'type': 'object', 'properties': {'expression': {'type': 'string', 'description': 'Mathematical expression to evaluate'}}, 'required': ['expression']}}}
+</tools>
+
+For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
+<tool_call>
+{"name": <function-name>, "arguments": <args-json-object>}
+...
+{"temperature": 22, "condition": "sunny", "humidity": 60}<|im_end|>
+<|im_start|>assistant
+The weather in Paris is currently sunny with a temperature of 22°C and 60% humidity. It's a beautiful day!<|im_end|>
+```
+
+
 # $\color{yellow}{Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
 
