@@ -65,7 +65,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - Step 1 : Choose a base lLM and perform SFT on it using reasoning dataset. This reasoning dataset consists of <question> <answer> pairs and the answer has the entire thinking process it in.
   - Step 2 : Now perform RL based finetuning on this base LLM for which the reference / offline model is the above SFT finetuned model.
 
-
+This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
 
 
 
