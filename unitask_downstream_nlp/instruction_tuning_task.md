@@ -25,10 +25,6 @@ Some famous models are :
 ### B. Instruction Tuning with Chat Template
 ----------------------------------------------------------
 
-# My Awesome Python Project
-
-This project demonstrates a simple Python script.
-
 ```python
 <|im_start|>system
 You are a helpful assistant focused on technical topics.
