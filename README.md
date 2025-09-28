@@ -51,7 +51,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
   - [Dialogue Systems (Chatbots)](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/dialogue_sys.md)
   - [Text2Code Generation](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/text2code.md)
 
-- [Instruction Tuning Task](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/instruction_tuning_task.md)
+- Instruction Tuning Task: More information about this is available [here](https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/instruction_tuning_task.md)
 
 
 
