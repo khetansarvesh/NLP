@@ -3,6 +3,8 @@
 
 ## $\color{yellow}{Normal\ Mode}$
 
+
+### A. Standard Instruction Tuning
 Researchers thought that if we can finetune a base LLM so that it can perform multiple tasks / instructions then it will be able to generalize to other tasks that it has not seen during the training.(Well their hypothesis turned out to be correct !!). Now whatever NLG tasks (eg MT, text summarization, paraphrasing, ...) that we have seen can be framed as a next token prediction task. 
 
 In fact all NLU tasks can be framed as a NLG task, for instance
@@ -21,6 +23,12 @@ Some famous models are :
 - OPT-IML by Facebook
 - Llama 7B | 13B | 32B | 65B by meta
 - Llama2 7B | 13B| 70B by meta
+
+### B. Instruction Tuning with Chat Template
+
+
+### C. Instruction Tuning with Chat + Tool Calling Template
+
 
 ## $\color{yellow}{Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
