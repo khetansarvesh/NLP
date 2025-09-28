@@ -24,7 +24,12 @@ Some famous models are :
 
 ### B. Instruction Tuning with Chat Template
 ----------------------------------------------------------
-'''python
+
+# My Awesome Python Project
+
+This project demonstrates a simple Python script.
+
+```python
 <|im_start|>system
 You are a helpful assistant focused on technical topics.<|im_end|>
 <|im_start|>user
@@ -34,7 +39,7 @@ Nice to meet you!<|im_end|>
 <|im_start|>user
 Can I ask a question?<|im_end|>
 <|im_start|>assistant
-'''
+```
 
 ### C. Instruction Tuning with Chat + Tool Calling Template
 ----------------------------------------------------------
