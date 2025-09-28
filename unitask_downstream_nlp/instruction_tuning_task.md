@@ -27,19 +27,19 @@ Some famous models are :
 
 ```python
 <|im_start|>system
-You are a helpful assistant focused on technical topics.
+#You are a helpful assistant focused on technical topics.
 <|im_end|>
 
 <|im_start|>user
-Hi there!
+#Hi there!
 <|im_end|>
 
 <|im_start|>assistant
-Nice to meet you!
+#Nice to meet you!
 <|im_end|>
 
 <|im_start|>user
-Can I ask a question?
+#Can I ask a question?
 <|im_end|>
 
 <|im_start|>assistant
@@ -79,6 +79,10 @@ For each function call, return a json object with function name and arguments wi
 {"temperature": 22, "condition": "sunny", "humidity": 60}
 '''
 <|im_end|>
+
+
+
+
 
 <|im_start|>assistant
 '''
