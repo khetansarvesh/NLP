@@ -22,7 +22,7 @@ Some famous models are :
 - Llama 7B | 13B | 32B | 65B by meta
 - Llama2 7B | 13B| 70B by meta
 
-### B. Instruction Tuning with Chat Template
+### $\color{blue}{B.\ Instruction\ Tuning\ with\ Chat\ Template}$
 ----------------------------------------------------------
 
 ```python
@@ -45,7 +45,7 @@ Some famous models are :
 <|im_start|>assistant
 ```
 
-### C. Instruction Tuning with Chat + Tool Calling Template
+### $\color{blue}{C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
 Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face.
 
