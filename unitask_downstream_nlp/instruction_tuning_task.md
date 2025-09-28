@@ -51,6 +51,7 @@ Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A
 
 ```python
 <|im_start|>system
+'''
 ## Metadata
 
 Knowledge Cutoff Date: June 2025
@@ -76,10 +77,13 @@ For each function call, return a json object with function name and arguments wi
 {"name": <function-name>, "arguments": <args-json-object>}
 ...
 {"temperature": 22, "condition": "sunny", "humidity": 60}
+'''
 <|im_end|>
 
 <|im_start|>assistant
+'''
 The weather in Paris is currently sunny with a temperature of 22°C and 60% humidity. It's a beautiful day!
+'''
 <|im_end|>
 ```
 
