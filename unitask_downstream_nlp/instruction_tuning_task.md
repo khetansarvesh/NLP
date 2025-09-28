@@ -1,7 +1,7 @@
-# $\color{yellow}{Normal\ Mode}$
+# $\color{yellow}{1.\ Normal\ Mode}$
 
 
-### $\color{blue}{A.\ Standard\ Instruction\ Tuning}$
+### $\color{blue}{1.A.\ Standard\ Instruction\ Tuning}$
 ----------------------------------------------------------
 Researchers thought that if we can finetune a base LLM so that it can perform multiple tasks / instructions then it will be able to generalize to other tasks that it has not seen during the training.(Well their hypothesis turned out to be correct !!). Now whatever NLG tasks (eg MT, text summarization, paraphrasing, ...) that we have seen can be framed as a next token prediction task. 
 
@@ -22,7 +22,7 @@ Some famous models are :
 - Llama 7B | 13B | 32B | 65B by meta
 - Llama2 7B | 13B| 70B by meta
 
-### $\color{blue}{B.\ Instruction\ Tuning\ with\ Chat\ Template}$
+### $\color{blue}{1.B.\ Instruction\ Tuning\ with\ Chat\ Template}$
 ----------------------------------------------------------
 
 ```python
@@ -45,7 +45,7 @@ Some famous models are :
 <|im_start|>assistant
 ```
 
-### $\color{blue}{C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
+### $\color{blue}{1.C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
 Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face.
 
@@ -92,7 +92,7 @@ The weather in Paris is currently sunny with a temperature of 22°C and 60% humi
 ```
 
 
-# $\color{yellow}{Reasoning\ Mode}$
+# $\color{yellow}{2.\ Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
 
 
