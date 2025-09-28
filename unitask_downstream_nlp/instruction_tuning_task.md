@@ -23,4 +23,4 @@ Some famous models are :
 - Llama2 7B | 13B| 70B by meta
 
 ## $\color{yellow}{Reasoning\ Mode}$
-Exactly same as above just that now our dataset changes slightly, we make use of reasoning instruction tuned dataset. This dataset consists of <question> <answer> pairs and the answer has the entire thinking / reasoning steps in it.
+Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
