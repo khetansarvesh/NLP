@@ -1,7 +1,7 @@
 # Instruction Tuning Task
 
 
-## $\color{yellow}{Normal\ Mode}$
+# $\color{yellow}{Normal\ Mode}$
 
 
 ### A. Standard Instruction Tuning
@@ -33,5 +33,5 @@ Some famous models are :
 ----------------------------------------------------------
 
 
-## $\color{yellow}{Reasoning\ Mode}$
+# $\color{yellow}{Reasoning\ Mode}$
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
