@@ -7,7 +7,7 @@ Now above we saw how to create different models for different individual tasks, 
 
 Researchers hypothesised that if we can create a single model which can do all these tasks then such a model will be able to generalize to other unseen tasks i.e. tasks that it has not seen during the training. (Well their hypothesis turned out to be correct !!)
 
-Creation of such a model because feasible because all of these tasks NLU (pos_tagging / ner/ ...) and NLG (machine_traslation / summarization/ ...) can be seen as next token prediction task on which the foundation LLMs are trained upon.
+Creation of such a model became feasible because all of these tasks NLU (pos_tagging / ner/ ...) and NLG (machine_traslation / summarization/ ...) can be seen as next token prediction task on which the foundation LLMs are trained upon.
 - Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
 - Similarly QA can be formed as a NLG task
   
@@ -15,7 +15,7 @@ Hence to create such a general model, we just need to finetune the base LLM on a
 
 ### $\color{blue}{1.B.\ Instruction\ Tuning\ with\ Chat\ Template}$
 ----------------------------------------------------------
-Now you might have interacted with applications like chat_gpt, such applications are made by finetuning the model via a chat like design template of the data, one of the example is shown below. Similarly the entire dataset is framed in such format
+Now you might have interacted with applications like chat_gpt, such applications can perform different types of task but in a chat format. Hence to make such a model we need to finetuning the model via a chat like design template of the data, one of the example is shown below. Similarly the entire dataset is framed in such format
 
 ```python
 <|im_start|>system
@@ -31,7 +31,7 @@ Now you might have interacted with applications like chat_gpt, such applications
 <|im_end|>
 
 <|im_start|>user
-#Can you help me translate this to hindi : 'How are you'
+#Can you help me translate this to hindi : 'My name is Sarvesh Khetan and I study at Unviersity of Maryland, College Park'
 <|im_end|>
 
 <|im_start|>assistant
@@ -49,24 +49,20 @@ Some famous models which are trained using chat template are :
 
 ### $\color{blue}{1.C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
-Recently we have seen that models are given access to tools so that it hallucinates less and responds faster for instance if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool which it can call to perform these kind of operations thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors.
+Recently we have seen that models are given access to tools so that it hallucinates less and responds faster. For instance, if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors.
+
+Moreover, one of the biggest issue with LLM was that it did not have access to latest data and using tool call we can eliminate this drawback of the llms.
 
 Now to finetune models such that they can call tools, we use this kind of chat_tool_template
 
 ```python
 <|im_start|>system
 '''
-## Metadata
-
-Knowledge Cutoff Date: June 2025
-Today Date: 01 September 2025
-Reasoning Mode: /think
-
 ## Custom Instructions
 
 You are a helpful assistant with access to tools.
 
-### Tools
+## Tools
 
 You may call one or more functions to assist with the user query.
 You are provided with function signatures within <tools></tools> XML tags:
