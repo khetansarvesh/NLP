@@ -36,6 +36,8 @@ Now you might have interacted with applications like chat_gpt, such applications
 
 <|im_start|>assistant
 ```
+In this [video](https://www.youtube.com/watch?v=6XeTk8cZUsM) you will see how to finetune a foundation model using the above chat like template on instruction dataset.
+
 Some famous models which are trained using chat template are :
 - InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
 - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
