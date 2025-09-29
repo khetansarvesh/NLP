@@ -103,6 +103,8 @@ For each function call, return a json object with function name and arguments wi
 ...
 {"temperature": 22, "condition": "sunny", "humidity": 60}
 '''
+</tool_call>
+
 <|im_end|>
 
 
