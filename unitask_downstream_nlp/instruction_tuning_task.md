@@ -83,7 +83,18 @@ You are provided with function signatures within <tools></tools> XML tags:
               }
 }
 
-{'type': 'function', 'function': {'name': 'calculate', 'description': 'Perform mathematical calculations', 'parameters': {'type': 'object', 'properties': {'expression': {'type': 'string', 'description': 'Mathematical expression to evaluate'}}, 'required': ['expression']}}}
+{
+  'type': 'function',
+  'function': {
+                'name': 'calculate',
+                'description': 'Perform mathematical calculations',
+                'parameters': {
+                                'type': 'object',
+                                'properties': {'expression': {'type': 'string', 'description': 'Mathematical expression to evaluate'}},
+                                'required': ['expression']
+                              }
+              }
+}
 </tools>
 
 For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
