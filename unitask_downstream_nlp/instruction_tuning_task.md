@@ -67,7 +67,22 @@ You may call one or more functions to assist with the user query.
 You are provided with function signatures within <tools></tools> XML tags:
 
 <tools>
-{'type': 'function', 'function': {'name': 'get_weather', 'description': 'Get the current weather for a location', 'parameters': {'type': 'object', 'properties': {'location': {'type': 'string', 'description': 'The city and state, e.g. San Francisco, CA'}, 'unit': {'type': 'string', 'enum': ['celsius', 'fahrenheit'], 'description': 'The temperature unit'}}, 'required': ['location']}}}
+{
+  'type': 'function',
+  'function': {
+                'name': 'get_weather',
+                'description': 'Get the current weather for a location',
+                  'parameters': {
+                                  'type': 'object',
+                                  'properties': {
+                                                  'location': {'type': 'string', 'description': 'The city and state, e.g. San Francisco, CA'},
+                                                  'unit': {'type': 'string', 'enum': ['celsius', 'fahrenheit'],'description': 'The temperature unit'}
+                                                },
+                                  'required': ['location']
+                                }
+              }
+}
+
 {'type': 'function', 'function': {'name': 'calculate', 'description': 'Perform mathematical calculations', 'parameters': {'type': 'object', 'properties': {'expression': {'type': 'string', 'description': 'Mathematical expression to evaluate'}}, 'required': ['expression']}}}
 </tools>
 
