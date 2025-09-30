@@ -130,6 +130,8 @@ The weather in Paris is currently sunny with a temperature of 22°C and 60% humi
 
 
 # $\color{yellow}{2.\ Reasoning\ Mode}$
+### $\color{blue}{2.A.\ Reasoning\ Instruction\ Tuning\ with\ Chat\ Template}$
+
 Exactly same as above just that now our dataset changes slightly, we make use of reasoning dataset. This dataset consists of {question}{answer} pairs and the answer has the entire thinking / reasoning steps in it.
 
 
@@ -152,7 +154,45 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 
 <|im_end|>
 ```
-Above is a chat based reasoning template similarly we can have tool based reasoning template.
 
-Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face where we finetune an LLM to perform tool calling.
+### $\color{blue}{2.B.\ Reasoning\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
+Exactly same as what we saw in non reasoning version of this just that now the answers will have the thinking / reasoning steps too.
+
+
+```python
+<|im_start|>system
+'''
+## Custom Instructions
+
+You are a helpful assistant with access to tools.
+
+## Tools
+
+You may call one or more functions to assist with the user query.
+You are provided with function signatures within <tools></tools> XML tags:
+
+<tools>
+</tools>
+
+For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
+<tool_call>
+</tool_call>
+
+<|im_end|>
+
+
+
+
+
+<|im_start|>assistant
+<think>
+</think>
+<solution>
+The weather in Paris is currently sunny with a temperature of 22°C and 60% humidity. It's a beautiful day!
+</solution>
+<|im_end|>
+```
+
+
+Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face where we finetune (peft-lora) an LLM to perform tool calling via reasoning.
 
