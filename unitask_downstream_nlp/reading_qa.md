@@ -2,6 +2,7 @@
 
 ### $\color{cyan}{Task\ Definition}$
 You are given a paragraph and a question, now your system need to find an answer from the paragraph. Note that, you are supposed to pick the answer from the paragraph and not generate the answer. Hence your system should search and copy paste the exact answer found in the paragraph. Below image describes this task perfectly !!
+
 <img width=500 src="https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/reading_qa_task.png">
 
 
