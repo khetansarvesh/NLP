@@ -39,7 +39,7 @@ Now you might have interacted with applications like chat_gpt, such applications
 In this [video](https://www.youtube.com/watch?v=6XeTk8cZUsM) you will see how to finetune a foundation model using the above chat like template on instruction dataset.
 
 Some famous models which are trained using chat template are :
-- InstructGPT / ChatGPT by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
+- InstructGPT / ChatGPT / GPT3.5 by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
 - Google FLANG LaMDA and LaMDA2:- Base Model used was LaMDA
 - Google FLANG PALM:- Base Model used was PALM
 - Google FLANG T5:- Base Model used was T5
@@ -48,6 +48,13 @@ Some famous models which are trained using chat template are :
 - OPT-IML by Facebook
 - Llama 7B | 13B | 32B | 65B by meta
 - Llama2 7B | 13B| 70B by meta
+- Dolly 2.0 by Databricks
+- CLaude
+- Alpaca-7B | 13B Model by stanford : Fine tuned on llama-7B | 13B respectively
+- Vicuna 7B | 13B Model : Fine tuned on llama-7B | 13B respectively
+- Lambda 2 Chat 7B | 13B | 70B : Fine Tuned on Lambda2
+
+
 
 ### $\color{blue}{1.C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
