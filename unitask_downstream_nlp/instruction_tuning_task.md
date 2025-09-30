@@ -127,7 +127,6 @@ The weather in Paris is currently sunny with a temperature of 22°C and 60% humi
 '''
 <|im_end|>
 ```
-Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face where we finetune an LLM to perform tool calling.
 
 
 # $\color{yellow}{2.\ Reasoning\ Mode}$
@@ -154,3 +153,6 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 <|im_end|>
 ```
 Above is a chat based reasoning template similarly we can have tool based reasoning template.
+
+Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face where we finetune an LLM to perform tool calling.
+
