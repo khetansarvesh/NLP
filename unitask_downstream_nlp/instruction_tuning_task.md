@@ -153,4 +153,4 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 
 <|im_end|>
 ```
-Similarly we can have tool based reasoning template.
+Above is a chat based reasoning template similarly we can have tool based reasoning template.
