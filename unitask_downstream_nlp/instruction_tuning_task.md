@@ -185,11 +185,11 @@ For each function call, return a json object with function name and arguments wi
 
 
 <|im_start|>assistant
-<think>
-</think>
-<solution>
+<|thinking|>
+</|thinking|>
+<answer>
 The weather in Paris is currently sunny with a temperature of 22°C and 60% humidity. It's a beautiful day!
-</solution>
+</answer>
 <|im_end|>
 ```
 
