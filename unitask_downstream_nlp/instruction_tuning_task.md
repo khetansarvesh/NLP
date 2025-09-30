@@ -36,7 +36,7 @@ Now you might have interacted with applications like chat_gpt, such applications
 
 <|im_start|>assistant
 ```
-In this [video](https://www.youtube.com/watch?v=6XeTk8cZUsM) you will see how to finetune a foundation model using the above chat like template on instruction dataset.
+In this [video](https://www.youtube.com/watch?v=6XeTk8cZUsM) you will see how to finetune (using PEFT-LORA) a foundation model using the above chat like template on instruction dataset via TRL library from hugging face.
 
 Some famous models which are trained using chat template are :
 - InstructGPT / ChatGPT / GPT3.5 by openAI:- Based Model used was GPT3 and in total 30k NLP tasks were trained on this model
