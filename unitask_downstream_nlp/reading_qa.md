@@ -1,12 +1,12 @@
 # Reading Question Answering System
 
-### Task Definition
+### $\color{cyan}{Task\ Definition}$
 - You are given a paragraph and a question, now your system need to find an answer from the paragraph.
 - Note : You are supposed to pick the answer from the paragraph and not generate the answer. Hence your system should search and copy paste the exact answer found in the paragraph.
 - Below image describes this task perfectly !!
 
 
-### Dataset
+### $\color{cyan}{Dataset}$
 Some standard dataset for this task are 
 - Stanford Question Answering Dataset (SQuAD) -- V1.1
     - It contains 107,785 question-answer pairs on 536 articles and it does not provide a list of answer choices for each question. The model must select the answer from all possible spans in the passage, thus needing to cope with a fairly large number of candidates.
@@ -21,7 +21,7 @@ Some standard dataset for this task are
 
 
 
-### Solution
+### $\color{cyan}{Solution}$
 If you think carefully this is just like POS tagging task just that instead of 36 class classification, it is not just a 2 class classification problem.
 - <START> : denotes the answer starting of the passage
 - <END> : denotes the answer ending in the passage
