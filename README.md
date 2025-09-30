@@ -83,10 +83,7 @@ There are two methods to do this, namely, RLHF and DPO. More information about t
 
 
 # $\color{cyan}{LLM\ Agents\}$
-- With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
-- But many times prompting does not work well, this is called HALLUCINATION PROBLEM. The model would sometimes give wrong answers to prompted questions (incases where such a task was not trained during the training of multitask foundation model)
-- To solve this hallucination probelm you can finetune the foundation models for specific tasks.
--  More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
+With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. More about this [here](https://github.com/khetansarvesh/NLP/tree/main/unitask_downstream_nlp)
 
 
 There are many good frameworks but some of the good ones are Langraph and Autogen (supports communication between llms)
