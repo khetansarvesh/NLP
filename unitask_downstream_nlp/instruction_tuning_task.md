@@ -185,6 +185,49 @@ Below is the famous ReAct (reason and action) template
 <Final_Answer> India has a higher population density (419.6 people/km²) than Japan (330.7 people/km²). </Final_Answer>
 ```
 
+Below is another template
+```python
+<Question> If my future wife has the same first name as the 15th first lady of the United States' mother and her surname is the same as the second assassinated president's mother's maiden name, what is my future wife's name? </Question>
+
+<Thought> To determine the future wife's name, I need to find two parts: the first name of the 15th First Lady's mother and the maiden name of the second assassinated president's mother. I'll use web_search to verify each part. </Thought>
+
+<Code>
+# Find the 15th First Lady’s mother’s first name
+first_lady_info = web_search(query="15th first lady of the united states mother's name")
+print("15th First Lady's mother:", first_lady_info)
+
+# Find the second assassinated president’s mother’s maiden name
+assassinated_presidents = web_search(query="list of assassinated U.S. presidents in order")
+print("Assassinated presidents:", assassinated_presidents)
+
+# Extract the second president from the list and search for his mother’s maiden name
+second_assassinated = "James A. Garfield"
+maiden_name = web_search(query=f"{second_assassinated} mother's maiden name")
+print("Maiden name:", maiden_name)
+</Code>
+
+<Observatino>
+15th First Lady's mother: The 15th First Lady was Harriet Lane, niece of President James Buchanan. Her mother was Jane Buchanan Lane, so her first name was Jane.
+
+Assassinated presidents: The order is: 1. Abraham Lincoln (1865), 2. James A. Garfield (1881), 3. William McKinley (1901), 4. John F. Kennedy (1963).
+
+Maiden name: James A. Garfield's mother was Eliza Ballou Garfield. Her maiden name was Ballou.
+</Observation>
+
+<Thought>
+Combining the results, the future wife's name is Jane Ballou.
+</Thought>
+
+<Code>
+final_answer("Jane Ballou")
+</Code>
+
+<Final_answer>
+Jane Ballou
+</Final_answer>
+
+```
+
 ### $\color{blue}{2.C.\ Reasoning\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 Exactly same as what we saw in non reasoning version of this just that now the answers will have the thinking / reasoning steps too.
 
