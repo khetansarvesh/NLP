@@ -162,7 +162,7 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 ```
 
 ### $\color{blue}{2.B.\ Reasoning\ Instruction\ Tuning\ with\ Tool\ Calling\ Template}$
-
+Below is the famous ReAct (reason and action) template
 ```python
 <Question>
 Which country has a higher population density: Japan or India?
