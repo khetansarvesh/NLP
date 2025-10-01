@@ -8,8 +8,8 @@ Now above we saw how to create different models for different individual tasks, 
 Researchers hypothesised that if we can create a single model which can do all these tasks then such a model will be able to generalize to other unseen tasks i.e. tasks that it has not seen during the training. (Well their hypothesis turned out to be correct !!)
 
 Creation of such a model became feasible because all of these tasks NLU (pos_tagging / ner/ ...) and NLG (machine_traslation / summarization/ ...) can be seen as next token prediction task on which the foundation LLMs are trained upon.
-- Sentimental Analysis output will be ‘this is a positive sentiment’ rather than classification of positive and negative.
-- Similarly QA can be formed as a NLG task
+
+https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/instruction_dataset.png
   
 Hence to create such a general model, we just need to finetune the base LLM on a dataset just like above. Infact, along with multiple tasks you can add multiple languages too in this dataset to make the model Multilingual !! 
 
