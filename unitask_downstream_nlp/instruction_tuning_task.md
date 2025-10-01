@@ -9,7 +9,8 @@ Researchers hypothesised that if we can create a single model which can do all t
 
 Creation of such a model became feasible because all of these tasks NLU (pos_tagging / ner/ ...) and NLG (machine_traslation / summarization/ ...) can be seen as next token prediction task on which the foundation LLMs are trained upon.
 
-https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/instruction_dataset.png
+<img width=500 src="https://github.com/khetansarvesh/NLP/blob/main/unitask_downstream_nlp/imgs/instruction_dataset.png">
+
   
 Hence to create such a general model, we just need to finetune the base LLM on a dataset just like above. Infact, along with multiple tasks you can add multiple languages too in this dataset to make the model Multilingual !! 
 
