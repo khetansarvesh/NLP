@@ -168,14 +168,17 @@ Below is the famous ReAct (reason and action) template
 <Thought> I need to find the population and area of Japan. </Thought>
 <Action>search_internet</Action>
 <Action_Input>population and area of Japan</Action_Input>
+
 <Observation> Japan has a population of 125 million and an area of 377,975 square kilometers. </Observation>
 <Thought> I need to find the population and area of India. </Thought>
 <Action>search_internet</Action>
 <Action_Input>population and area of India</Action_Input>
+
 <Observation> India has a population of 1.38 billion and an area of 3,287,263 square kilometers. </Observation>
 <Thought> I need to calculate the population densities of Japan and India. </Thought>
 <Action>calculate</Action>
 <Action_Input>125 million / 377,975 and 1.38 billion / 3,287,263</Action_Input>
+
 <Observation> Japan: 330.7 people/km²; India: 419.6 people/km². </Observation>
 <Thought> India has a higher population density than Japan. </Thought>
 <Action>Done</Action>
