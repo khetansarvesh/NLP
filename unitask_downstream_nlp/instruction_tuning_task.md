@@ -123,9 +123,9 @@ For each function call, return a json object with function name and arguments wi
 
 <|im_end|>
 
-
-
-
+<|im_start|>user
+What is weather in Paris?
+<|im_end|>
 
 <|im_start|>assistant
 '''
