@@ -161,7 +161,76 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 <|im_end|>
 ```
 
-### $\color{blue}{2.B.\ Reasoning\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
+### $\color{blue}{2.B.\ Reasoning\ Instruction\ Tuning\ with\ Tool\ Calling\ Template}$
+
+```python
+<Question>
+Which country has a higher population density: Japan or India?
+</Question>
+
+<Thought>
+I need to find the population and area of Japan.
+</Thought>
+
+<Action>
+search_internet
+</Action>
+
+<Action_Input>
+population and area of Japan
+</Action_Input>
+
+<Observation>
+Japan has a population of 125 million and an area of 377,975 square kilometers.
+</Observation>
+
+<Thought>
+I need to find the population and area of India.
+</Thought>
+
+<Action>
+search_internet
+</Action>
+
+<Action_Input>
+population and area of India
+</Action_Input>
+
+<Observation>
+India has a population of 1.38 billion and an area of 3,287,263 square kilometers.
+</Observation>
+
+<Thought>
+I need to calculate the population densities of Japan and India.
+</Thought>
+
+<Action>
+calculate
+</Action>
+
+<Action_Input>
+125 million / 377,975 and 1.38 billion / 3,287,263
+</Action_Input>
+
+<Observation>
+Japan: 330.7 people/km²; India: 419.6 people/km².
+</Observation>
+
+<Thought>
+India has a higher population density than Japan.
+</Thought>
+
+<Action>
+Done
+</Action>
+
+<Final_Answer>
+India has a higher population density (419.6 people/km²)
+than Japan (330.7 people/km²).
+</Final_Answer>
+```
+
+### $\color{blue}{2.C.\ Reasoning\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 Exactly same as what we saw in non reasoning version of this just that now the answers will have the thinking / reasoning steps too.
 
 
@@ -196,6 +265,4 @@ The weather in Paris is currently sunny with a temperature of 22°C and 60% humi
 <|im_end|>
 ```
 
-
 Here is an amazing [notebook](https://colab.research.google.com/#fileId=https%3A//huggingface.co/agents-course/notebooks/blob/main/bonus-unit1/bonus-unit1.ipynb) by hugging face where we finetune (peft-lora) an LLM to perform tool calling via reasoning.
-
