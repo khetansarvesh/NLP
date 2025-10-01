@@ -61,8 +61,8 @@ We need to represent language mathematically i.e. given a corpus you need to con
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 - Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also [finetune a foundational LLM model using RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6).
 - It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes. Infact, the reference
-  model used while performing RL is usually the SFT model on that task. Based on all the information, now you can finally understand <ins>how to create a reasoning LLM</ins>?
-  - <ins> Step 1 </ins>: Choose a base LLM and perform SFT on it using instruction tuning reasoning dataset. This reasoning dataset consists of <question> <answer> pairs and the answer has the entire thinking process it in.
+  model used while performing RL is usually the SFT model on that task. Based on all the information, now you can finally understand <ins>how to create a tool based reasoning LLM</ins>?
+  - <ins> Step 1 </ins>: Choose a base LLM and perform SFT on it using instruction tuning task via chat+tool+reasoning template.
   - <ins> Step 2 </ins>: Now perform RL based finetuning on this base LLM for which the reference / offline model is the above SFT finetuned model.
   - This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
 
