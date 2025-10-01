@@ -59,9 +59,12 @@ Some famous models which are trained using chat template are :
 
 ### $\color{blue}{1.C.\ Instruction\ Tuning\ with\ Chat\ Template\ and\ Tool\ Calling\ Template}$
 ----------------------------------------------------------
-Recently we have seen that models are given access to tools so that it hallucinates less and responds faster. For instance, if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors.
+Recently we have seen that models are given access to tools. And these tools can solve a lot of problems :
 
-- Moreover, one of the biggest issue with LLM was that it did not have access to latest data and using tool call like google_search we can eliminate this drawback of the llms.
+- For instance, if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors.
+
+- One of the biggest issue with LLM was that it did not have access to latest data and using tool call like google_search we can eliminate this drawback.
+- LLMs now have access to coding environments like python interpretor using which it can execute the codes that it has written and check for correctness.
 - If you interact with chat_gpt and ask it to give latest stock price of say Tesla, it plots a graph, at the backend it is using graph_plotter tool call.
 - Infact, researchers have gone one step further and given access to another models as tool calls for example you can ask chat_gpt to generate an image of 'AI and Human working together', at the backend it will trigger a tool call to an image generator model eg Dalle. 
 
