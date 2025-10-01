@@ -165,11 +165,11 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 Below is the famous ReAct (reason and action) template
 ```python
 <Question>
-Which country has a higher population density: Japan or India?
+What is the population of India?
 </Question>
 
 <Thought>
-I need to find the population and area of Japan.
+I need to find the population of India.
 </Thought>
 
 <Action>
@@ -177,56 +177,15 @@ search_internet
 </Action>
 
 <Action_Input>
-population and area of Japan
+population of India
 </Action_Input>
 
 <Observation>
-Japan has a population of 125 million and an area of 377,975 square kilometers.
+India has a population of 1.38 billion.
 </Observation>
-
-<Thought>
-I need to find the population and area of India.
-</Thought>
-
-<Action>
-search_internet
-</Action>
-
-<Action_Input>
-population and area of India
-</Action_Input>
-
-<Observation>
-India has a population of 1.38 billion and an area of 3,287,263 square kilometers.
-</Observation>
-
-<Thought>
-I need to calculate the population densities of Japan and India.
-</Thought>
-
-<Action>
-calculate
-</Action>
-
-<Action_Input>
-125 million / 377,975 and 1.38 billion / 3,287,263
-</Action_Input>
-
-<Observation>
-Japan: 330.7 people/km²; India: 419.6 people/km².
-</Observation>
-
-<Thought>
-India has a higher population density than Japan.
-</Thought>
-
-<Action>
-Done
-</Action>
 
 <Final_Answer>
-India has a higher population density (419.6 people/km²)
-than Japan (330.7 people/km²).
+India has a population of 1.38 billion.
 </Final_Answer>
 ```
 
