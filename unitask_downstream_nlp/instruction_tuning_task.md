@@ -264,6 +264,14 @@ For each function call, return a json object with function name and arguments wi
 What is weather in Paris?
 <|im_end|>
 
+<|im_start|>action
+{"name": get_weather, "arguments": {'location' : 'Paris'}}
+<|im_end|>
+
+<|im_start|>observation
+{"temperature": 22, "condition": "humid", "humidity": 60}
+<|im_end|>
+
 <|im_start|>assistant
 <|thinking|>
 </|thinking|>
