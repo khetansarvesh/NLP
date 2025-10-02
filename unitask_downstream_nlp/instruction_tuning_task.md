@@ -166,29 +166,34 @@ Exactly same as above just that now our dataset changes slightly, we make use of
 ### $\color{blue}{2.B.\ Reasoning\ Instruction\ Tuning\ with\ Tool\ Calling\ Template}$
 Below is the famous ReAct (reason and action) template
 ```python
+<System> ... </System>
+
 <Question> Which country has a higher population density: Japan or India? </Question>
 <Thought> I need to find the population and area of Japan. </Thought>
 <Action>search_internet</Action>
 <Action_Input>population and area of Japan</Action_Input>
-
 <Observation> Japan has a population of 125 million and an area of 377,975 square kilometers. </Observation>
+
 <Thought> I need to find the population and area of India. </Thought>
 <Action>search_internet</Action>
 <Action_Input>population and area of India</Action_Input>
-
 <Observation> India has a population of 1.38 billion and an area of 3,287,263 square kilometers. </Observation>
+
 <Thought> I need to calculate the population densities of Japan and India. </Thought>
 <Action>calculate</Action>
 <Action_Input>125 million / 377,975 and 1.38 billion / 3,287,263</Action_Input>
-
 <Observation> Japan: 330.7 people/km²; India: 419.6 people/km². </Observation>
+
 <Thought> India has a higher population density than Japan. </Thought>
 <Action>Done</Action>
+
 <Final_Answer> India has a higher population density (419.6 people/km²) than Japan (330.7 people/km²). </Final_Answer>
 ```
 
 Below is another template
 ```python
+<System> ... </System>
+
 <Question> If my future wife has the same first name as the 15th first lady of the United States' mother and her surname is the same as the second assassinated president's mother's maiden name, what is my future wife's name? </Question>
 
 <Thought> To determine the future wife's name, I need to find two parts: the first name of the 15th First Lady's mother and the maiden name of the second assassinated president's mother. I'll use web_search to verify each part. </Thought>
