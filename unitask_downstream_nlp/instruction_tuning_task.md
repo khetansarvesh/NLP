@@ -241,23 +241,6 @@ Exactly same as what we saw in non reasoning version of this just that now the a
 
 ```python
 <|im_start|>system
-'''
-## Custom Instructions
-
-You are a helpful assistant with access to tools.
-
-## Tools
-
-You may call one or more functions to assist with the user query.
-You are provided with function signatures within <tools></tools> XML tags:
-
-<tools>
-</tools>
-
-For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
-<tool_call>
-</tool_call>
-'''
 <|im_end|>
 
 <|im_start|>user
