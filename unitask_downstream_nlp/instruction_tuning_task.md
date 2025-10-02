@@ -190,7 +190,7 @@ Below is the famous ReAct (reason and action) template
 <Final_Answer> India has a higher population density (419.6 people/km²) than Japan (330.7 people/km²). </Final_Answer>
 ```
 
-Below is another template
+Below is another template called CodeAct
 ```python
 <System> ... </System>
 
