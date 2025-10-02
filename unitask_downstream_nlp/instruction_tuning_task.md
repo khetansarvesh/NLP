@@ -61,7 +61,7 @@ Some famous models which are trained using chat template are :
 ----------------------------------------------------------
 Recently we have seen that models are given access to tools. And these tools can solve a lot of problems :
 
-- For instance, if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors.
+- For instance, if we ask the llm to perform calculation 2 + 4, instead of leaving this for the LLM to solve we can give the llm access to a calculator tool thus reducing the compute to process this calculation (thus also reducing the response time) and also preventing it from making errors. [This](https://github.com/sentient-agi/OpenDeepSearch/blob/main/src/opendeepsearch/wolfram_tool.py) is an example code of how to write a calculator tool using the wolfram api.
 
 - One of the biggest issue with LLM was that it did not have access to latest data and using tool call like google_search we can eliminate this drawback.
 - LLMs now have access to coding environments like python interpretor using which it can execute the codes that it has written and check for correctness.
