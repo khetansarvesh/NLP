@@ -73,13 +73,9 @@ Now to finetune models such that they can call tools, we use this kind of chat_t
 ```python
 <|im_start|>system
 '''
-## Custom Instructions
+You are an expert assistant who can solve any task using tool calls. You will be given a task to solve as best you can.
+To do so, you have been given access to some tools. You may call one or more tool calls to assist with the user query.
 
-You are a helpful assistant with access to tools.
-
-## Tools
-
-You may call one or more functions to assist with the user query.
 You are provided with function signatures within <tools></tools> XML tags:
 
 <tools>
