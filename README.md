@@ -92,7 +92,7 @@ With foundation models that are able to do multiple tasks, you just need to do [
 <ins> Solution (RAG Based System) </ins> : 
    - Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index)
    - Now calculate similarity (query , Doc1) , (query , Doc2), ... 
-   - Perform ranking based on how similar the document is wrt the input query
+   - Perform ranking based on how similar the document is wrt the input query. But instead of similarity nowadays people are using rerankers like [Jina AI](https://jina.ai/news/jina-reranker-v3-0-6b-listwise-reranker-for-sota-multilingual-retrieval/). Here is [why](https://www.linkedin.com/posts/anshuizme_chatgpt-rag-ai-activity-7380217740675993600-pVVp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYXQ0B7fczwMR-uxnuOJaiYRS4N5_AkqA) rerankers are important.
    - Output top K similar documents
 
 
