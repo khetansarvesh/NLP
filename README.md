@@ -59,21 +59,19 @@ We need to represent language mathematically i.e. given a corpus you need to con
 
 
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
-- Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also [finetune a foundational LLM model using RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6).
-- It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes. Infact, the reference
+Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundation model using RL. There are two ways to use RL to finetune :
+  -  [Non-Preference Data](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) : Here we will see how to finetune using RL incase you have a non-preference dataset of the downstream task.
+  -  [Preference Data](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) : Here we will see how to finetune using RL incase you have a preference dataset of the downstream task. To understand this we will take the example of a task wherein we need to align the model to human preferences. This again can be done via two methods :
+    - Reinforcement Learning using Human Feedback (RLHF)
+    - Direct Preference Optimization (DPO)
+
+It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes. Infact, the reference
   model used while performing RL is usually the SFT model on that task. Based on all the information, now you can finally understand <ins>how to create a tool based reasoning LLM</ins>?
   - <ins> Step 1 </ins>: Choose a base LLM and perform SFT on it using instruction tuning task via chat+tool+reasoning template.
   - <ins> Step 2 </ins>: Now perform RL based finetuning on this base LLM using the instruction tuning dataset for which the reference / offline model is the above SFT finetuned model.
   - This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
+  - <ins> Step 3 </ins> Preference Alignment using DPO
 
-
-
-
-
-
-
-# $\color{cyan}{Preference\ Alignment\ (posttraining) }$
-There are two methods to do this, namely, RLHF and DPO. More information about this is available [here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af)
 
 
 
