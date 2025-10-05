@@ -66,8 +66,8 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 ### $\color{red}{B.\ Preference\ Dataset}$
 [Here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) we will see how to finetune using RL incase you have a preference dataset of the downstream task. To understand this we will take the example of a task wherein we need to align the model to human preferences. This again can be done via two methods :
-    - Reinforcement Learning using Human Feedback (RLHF)
-    - Direct Preference Optimization (DPO)
+- Reinforcement Learning using Human Feedback (RLHF)
+- Direct Preference Optimization (DPO)
 
 It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes. Infact, the reference
   model used while performing RL is usually the SFT model on that task. Based on all the information, now you can finally understand <ins>how to create a tool based reasoning LLM</ins>?
