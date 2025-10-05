@@ -66,12 +66,11 @@ Now above we saw how to finetune a foundational LLM model for different downstre
   - (preferred) Direct Preference Optimization (DPO) : uses base LLM itself as reward model
 
 
+> [!IMPORTANT]
+> It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes.
 
-It has been proved previously that its better to first finetune LLM on any task using SFT and then finetune on the same task using RL, it gives better outcomes. Infact, the reference
-  model used while performing RL is usually the SFT model on that task. Based on all the information, now you can finally understand <ins>how to create a tool based reasoning LLM</ins>?
 
-
-This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
+> This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
 
 
 
