@@ -62,8 +62,8 @@ We need to represent language mathematically i.e. given a corpus you need to con
 Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundation model using RL. There are two ways to use RL to finetune :
 - [Manual Reward Funtion Based RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) : Here we will see how to finetune using RL if you 'can design' a good reward function for your downstream task.
 - [Automatic Reward Function Based RL](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) : Here we will see how to finetune using RL if you 'cannot design' a good reward function for your downstream task, via the help of preference dataset. There are multiple methods to do this : 
-  - Reinforcement Learning using Human Feedback (RLHF)
-  - Direct Preference Optimization (DPO)
+  - Reinforcement Learning using Human Feedback (RLHF) : trains a seperate reward model
+  - Direct Preference Optimization (DPO) : uses base LLM itself as reward model
 
 
 # $\color{cyan}{Recipe\ to\ create\ reasoning\ foundation\ model}$
