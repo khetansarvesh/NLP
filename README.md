@@ -61,8 +61,7 @@ We need to represent language mathematically i.e. given a corpus you need to con
 ## $\color{yellow}{Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundation model using RL. There are two ways to use RL to finetune :
 
-### $\color{red}{A.\ Non\ Preference\ Dataset}$
-[Here](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) we will see how to finetune using RL incase you have a non-preference dataset of the downstream task.
+### $\color{red}{A.\ Non\ Preference\ Dataset}$ [Here](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) we will see how to finetune using RL incase you have a non-preference dataset of the downstream task.
 
 ### $\color{red}{B.\ Preference\ Dataset}$
 [Here](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) we will see how to finetune using RL incase you have a preference dataset of the downstream task. To understand this we will take the example of a task wherein we need to align the model to human preferences. This again can be done via two methods :
