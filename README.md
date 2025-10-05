@@ -77,6 +77,7 @@ It has been proved previously that its better to first finetune LLM on any task 
   - <ins> Step 2 </ins>: Now perform RL based finetuning on this base LLM using the instruction tuning dataset for which the reference / offline model is the above SFT finetuned model.
     - Choose RL method based on what type of instruction tuning dataset is available (preference based instruction tuning dataset / non preference based instruction tuning dataset). 
   - <ins> Step 3 </ins> Perform RL (DPO) on human preference dataset
+
 This [notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_(4B)-GRPO.ipynb) from UnSloth follows this exact recepie to convert Qwen3 from a non reasoning model to a reasoning model.
 
 
