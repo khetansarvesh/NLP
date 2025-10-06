@@ -21,6 +21,10 @@ We need to represent language mathematically i.e. given a corpus you need to con
 - Via [Character Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Char-RL)
 - Via [Subword (or WordPieces) (or Token) Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/SubWord-RL) (everyone uses this)
 
+So since we have so many methods to convert our corpus into numerical representation then which one should we use?? It really depends on the data that you are trying to convert 
+- if it is social media data then maybe character embedding will work better
+- if your language is Chinese then maybe word embedding will work really really badly because in the Chinese language, there is no gap between words so identifying words is a big challenge hence in the Chinese language character embedding works really well and even subword embedding works really well
+- In languages like French and Arabic, though there are spaces but if say we have two words in English “so said” then it is just one word in these languages, hence word embedding might not work well with these languages
 
 
 
