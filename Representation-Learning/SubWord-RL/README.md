@@ -24,17 +24,17 @@ Next word prediction is a right extreme and next character prediction is the lef
 - Gated RNN LM
 - BiGated RNN LM
 - Transformer Encoder LM
-- Transformer Decoder LM
-- (Generative Pretrained Transformers) GPT2 small by OpenAI
-- GPT2 Medium by OpenAI
-- GPT2 Large by OpenAI
-- GPT2 Extra Large by OpenAI
-- DistilGPT2  by HF
-- GPT3 by OpenAI
-- Chinchilla (70B params) by Google Deepmind
-- Pathways Language Model (PaLM) 8B | 62B | 540B by GOOGLE
-- OPT (open pretrained transformers) by Facebook
-- Glam by GOOGLE
+- Transformer Decoder LM : 
+  - (Generative Pretrained Transformers) GPT2 small by OpenAI
+  - GPT2 Medium by OpenAI
+  - GPT2 Large by OpenAI
+  - GPT2 Extra Large by OpenAI
+  - DistilGPT2  by HF
+  - GPT3 by OpenAI
+  - Chinchilla (70B params) by Google Deepmind
+  - Pathways Language Model (PaLM) 8B | 62B | 540B by GOOGLE
+  - OPT (open pretrained transformers) by Facebook
+  - Glam by GOOGLE
 
 
 ## $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
