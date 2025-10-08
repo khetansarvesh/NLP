@@ -8,9 +8,11 @@
 
 Once we get these subwords it is exactly the same as how we got word embeddings and character embeddings.
 
-- Non Neural SubWord Embeddings
+# $\color{cyan}{Non\ Neural\ Subword\ Embeddings}$
   - One Hot Encoding (non contextual)
 
-- Neural Subword Embeddings
-  - Next Subword Prediction (NSP) Task i.e. Predict SW(t) | SW(t-1), SW(t-2), ...
-  - Fill in the Blank Task i.e. Predict SW(t) | SW(t-1),SW(t-2).... , SW(t+1),SW(t+2) …… 
+# $\color{cyan}{Neural\ Subword\ Embeddings}$
+
+## $\color{yellow}{Next\ Subword\ Prediction\ (NSP)}$
+
+## $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
