@@ -38,3 +38,31 @@ Next word prediction is a right extreme and next character prediction is the lef
 
 
 ## $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
+- When this problem is seen as a time series problem then we can use any of the following sequence models to solve this problem
+  - RNN MLM
+  - BiRNN MLM
+  - LSTM RNN MLM
+  - BiLSTM RNN MLM
+  - Gated RNN MLM
+  - BiGated RNN MLM
+  - Transformer Encoder MLM
+    - Bidirectional Encoder Representations from Transformers (BERT) by google
+    - BERT BASE by Google (open source)
+    - BERT Large by Google
+    - RoBERTa by Meta (open source) - better than BERT
+    - DistilBERT by HF
+    - On similarly lines many folks have made their language specific BERT as follows :
+      - Chinese Bert (Chinese) : same config as BERT BASE
+      - FlauBERT (French)
+      - CamemBERT (French)
+      - BERTje (Dutch)
+      - FinBERT (Finnish)
+      - BERTeus (Basque)
+      - AfriBERT (Afrikaans)
+      - IndicBERT (Indian languages)
+  - Transformer Decoder MLM 
+- When this problem is seen as a data argumentation problem then we can use any of the following encoder-decoder models to solve this problem
+  - Autoencoder
+  - GAN
+  - ...
+  - Diffusion  
