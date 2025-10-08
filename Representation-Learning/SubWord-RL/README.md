@@ -14,7 +14,7 @@ Once we get these subwords it is exactly the same as how we got word embeddings 
 # $\color{cyan}{Neural\ Subword\ Embeddings}$
 
 ## $\color{yellow}{Next\ Subword\ Prediction\ (NSP)\ Task}$
-Next word prediction is a right extreme and next character prediction is the left extreme so obvious researchers came up with the idea of the intermediate that is subword. These are called subword language models. Once you have converted words into subwords, exactly as we saw in the next word prediction, just now instead of passing words as inputs you will pass subwords as inputs. We can use any of the following sequence models to solve this problem 
+We can use any of the following sequence models to solve this problem 
 - <ins> N Gram Modelling </ins>
 - <ins> FFN LM </ins> : Fasttext 
 - <ins> RNN LM </ins>
