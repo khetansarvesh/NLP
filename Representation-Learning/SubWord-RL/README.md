@@ -62,7 +62,11 @@ Next word prediction is a right extreme and next character prediction is the lef
       - IndicBERT (Indian languages)
   - Transformer Decoder MLM 
 - When this problem is seen as a data argumentation problem then we can use any of the following encoder-decoder models to solve this problem
-  - Autoencoder
+  - Autoencoder : Now here encoder and decoder can be any model like
+    - FFNN encoder => FFNN decoder
+    - (Uni/Bi)directional encoder (eg: RNN/ LSTM/ transformer) => Unidirectional decoder (eg: RNN/ LSTM/ transformer)
+      - BART by google : transformer encoder => transformer decoder
+      - T5 by google
   - GAN
   - ...
   - Diffusion  
