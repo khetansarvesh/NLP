@@ -1,18 +1,3 @@
-# $\color{cyan}{Text\ Preprocessing}$
-Following are some text processing you must think of doing, it is not necessary to do all these, it depends on the nlp task what text processing you want to do before doing that task
-- String Manipulation using [Regex](https://www.rexegg.com/regex-quickstart.html)
-- Stemming & [Lemmatization](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
-- Removing [Stopwords](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
-
-
-
-
-
-
-
-
-
-
 # $\color{cyan}{Representation\ Learning\  (pretraining) }$
 We need to represent language mathematically i.e. given a corpus you need to convert this corpus into its numerical form. This mathematical representation is called an embedding/context and the process is called representation learning. Why do this?? Because computers understand only numbers and not texts. We can do this in several ways:
 - Via [Sentence Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Sentence-RL)
