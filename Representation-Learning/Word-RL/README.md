@@ -3,8 +3,9 @@
 # $\color{cyan}{Step1:\ Word\ Tokenization}$
 Given a paragraph (corpus) you need to extract all the unique words in that corpus is what is called word tokenization or word segmentation.
 
-# $\color{cyan}{Step2:\ Stemming\ Lemmetization\ Stopword\}$
-
+# $\color{cyan}{Step2:\ Stemming\ Lemmatization\ &\ Stopword\ Removal\}$
+[Stem and Lemm](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
+[Stopword](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
 
 # $\color{cyan}{Step3:\ Word\ Representation}$
 I.e. to convert the corpus into its numerical form we convert all the words in the corpus into its numerical form first and then combine them in some way to get the numerical form of the corpus. 
