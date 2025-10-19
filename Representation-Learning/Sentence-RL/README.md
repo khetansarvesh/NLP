@@ -2,9 +2,10 @@
 
 
 # $\color{cyan}{Step1:\ Sentence\ Tokenization}$
-Given a paragraph (corpus) you need to extract all the sentences in that corpus is what is called sentence tokenization or sentence segmentation. Now brute force approach is to use delimiter '.' to identify sentences but '.' can be ambiguous sometimes for instance sometimes it represents abbrev like Inc. or Dr. or sometimes it is also used in numbers like .02%.
+Given a paragraph (corpus) you need to extract all the sentences in that corpus is what is called sentence tokenization or sentence segmentation. There are many methods to do this :
 
-Hence instead of using delimeter '.' to identify sentences researchers framed this as a classification problem where you look at a '.' and classify it if it is a 'EOS' or not.
+- Now brute force approach is to use delimiter '.' to identify sentences but '.' can be ambiguous sometimes for instance sometimes it represents abbrev like Inc. or Dr. or sometimes it is also used in numbers like .02%.
+- Hence instead of using delimeter '.' to identify sentences researchers framed this as a classification problem where you look at a '.' and classify it if it is a 'EOS' or not.
 
 English sentence tonizer python code is available [here](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/English-Sentence-Tokenization.ipynb) while hindi is available [here](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Hindi-Sentence-Tokenization.ipynb).
 
