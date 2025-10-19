@@ -15,10 +15,10 @@ Following are some text processing you must think of doing, it is not necessary 
 
 # $\color{cyan}{Representation\ Learning\  (pretraining) }$
 We need to represent language mathematically i.e. given a corpus you need to convert this corpus into its numerical form. This mathematical representation is called an embedding/context and the process is called representation learning. Why do this?? Because computers understand only numbers and not texts. We can do this in several ways:
-- Via [Sentence Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Sentence-RL) / Tokenizer
-- Via [Word Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Word-RL) / Tokenizer
-- Via [Character Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Char-RL) / Tokenizer
-- Via [Subword (or WordPieces) (or Token) Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/SubWord-RL) / Tokenizer (everyone uses this)
+- Via [Sentence Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Sentence-RL)
+- Via [Word Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Word-RL)
+- Via [Character Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Char-RL)
+- Via [Subword (or WordPieces) (or Token) Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/SubWord-RL) (everyone uses this)
 
 So since we have so many methods to convert our corpus into numerical representation then which one should we use?? It really depends on the data that you are trying to convert 
 - if it is social media data then maybe character embedding will work better
