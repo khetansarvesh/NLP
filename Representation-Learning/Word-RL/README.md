@@ -4,7 +4,8 @@
 Given a paragraph (corpus) you need to extract all the unique words in that corpus is what is called word tokenization or word segmentation.
 
 # $\color{cyan}{Step2:\ Stemming\ Lemmatization\ and\ Stopword\ Removal}$
-[Stem and Lemm](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
+This [video](https://www.youtube.com/watch?v=JpxCt3kvbLk) here explains stemming and lemmetization really well and for code you can refer [here](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
+
 [Stopword](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
 
 # $\color{cyan}{Step3:\ Word\ Representation}$
