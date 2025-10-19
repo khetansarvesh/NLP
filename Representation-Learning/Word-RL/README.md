@@ -3,7 +3,7 @@
 # $\color{cyan}{Step1:\ Word\ Tokenization}$
 Given a paragraph (corpus) you need to extract all the unique words in that corpus is what is called word tokenization or word segmentation.
 
-# $\color{cyan}{Step2:\ Stemming\ Lemmatization\ &\ Stopword\ Removal\}$
+# $\color{cyan}{Step2:\ Stemming\ Lemmatization\ and\ Stopword\ Removal}$
 [Stem and Lemm](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stemming_Lemmetization.ipynb)
 [Stopword](https://github.com/khetansarvesh/NLP/blob/main/Preprocessing/Stopwords.ipynb)
 
