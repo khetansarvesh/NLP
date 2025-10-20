@@ -22,7 +22,13 @@ So how to convert words into numeric representations?? It can be one of the foll
   - One Hot Encoding (Gives non-contextual word embeddings)
 
 - Modelling Way
-This can be done by training a model for a task and hence using the representations generated during this task as word numeric representation. We can choose any task but if chosen the right task then downstream task accuracies will improve, hence how to choose the right task?? Any task will always fall under one of the learning types i.e. <ins> supervised </ins> / <ins> unsupervised </ins> / ...... Researchers have shown that one should always use an unsupervised learning task for generating embeddings. Unsupervised learning can be divided into <ins> Self-Supervised Learning (SSL) Task </ins>
+- This can be done by training a model for a task and hence using the representations generated during this task as word numeric representation. We can choose any task but if chosen the right task then downstream task accuracies will improve, hence how to choose the right task?? Any task will always fall under one of the learning types i.e. <ins> supervised </ins> / <ins> unsupervised </ins> / ......
+- Researchers have shown that one should always use an unsupervised learning task for generating embeddings. Unsupervised learning can be divided into <ins> Self-Supervised Learning (SSL) Task </ins>
+
+  - Researchers have shown one should choose SSL for creating such pre-trained models because these pre-trained models act like common sense for the downstream task and the human brain learns common sense via SSL behavior
+
+  - Unlike unsupervised learning, SSL does not focus on clusters or grouping. In this, we convert unsupervised learning into supervised learning by automatically generating labels without any human input, hence called self-supervised learning
+
 
 
 
