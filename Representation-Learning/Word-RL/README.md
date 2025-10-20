@@ -28,6 +28,13 @@ So how to convert words into numeric representations?? It can be one of the foll
   - Researchers have shown one should choose SSL for creating such pre-trained models because these pre-trained models act like common sense for the downstream task and the human brain learns common sense via SSL behavior
 
   - Unlike unsupervised learning, SSL does not focus on clusters or grouping. In this, we convert unsupervised learning into supervised learning by automatically generating labels without any human input, hence called self-supervised learning
+ 
+  - Researchers claim that within SSL, Constrastive Learning Task are to be preferred
+    
+    - Contrastive learning is based on the simple idea of constructing pairs of x and y that are incompatible and adjusting the parameters of the model so that the corresponding output energy is large. Hence for contrastive learning one needs so-called hard negatives to construct {x,y} pairs.
+    - Unlike supervised learning, contrastive learning benefits from larger batch sizes and extended training periods. Contrastive learning also benefits from deeper and broader networks, just as supervised learning does.
+
+ 
 
 
 
