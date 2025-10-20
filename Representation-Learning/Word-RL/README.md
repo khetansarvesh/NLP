@@ -18,10 +18,10 @@ Now once we have got the numerical representation of all the words present in th
 
 So how to convert words into numeric representations?? It can be one of the following : 
 
-- Non-Modelling Way (Brute Force Approach)
+### $\color{yellow}{M1:\ Non\ Modelling\ Way\ (Brute\ Force\ Approach)\}$
   - One Hot Encoding (Gives non-contextual word embeddings)
 
-- Modelling Way
+### $\color{yellow}{M2:\ Modelling\ Way}$
 - This can be done by training a model for a task and hence using the representations generated during this task as word numeric representation. We can choose any task but if chosen the right task then downstream task accuracies will improve, hence how to choose the right task?? Any task will always fall under one of the learning types i.e. <ins> supervised </ins> / <ins> unsupervised </ins> / ......
 - Researchers have shown that one should always use an unsupervised learning task for generating embeddings. Unsupervised learning can be divided into <ins> Self-Supervised Learning (SSL) Task </ins>
 
