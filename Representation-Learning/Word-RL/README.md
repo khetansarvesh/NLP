@@ -29,10 +29,14 @@ So how to convert words into numeric representations?? It can be one of the foll
 
   - Unlike unsupervised learning, SSL does not focus on clusters or grouping. In this, we convert unsupervised learning into supervised learning by automatically generating labels without any human input, hence called self-supervised learning
  
-  - Researchers claim that within SSL, Constrastive Learning Task are to be preferred
+  - Researchers claim that within SSL, <ins> Constrastive Learning Task </ins> are to be preferred
     
     - Contrastive learning is based on the simple idea of constructing pairs of x and y that are incompatible and adjusting the parameters of the model so that the corresponding output energy is large. Hence for contrastive learning one needs so-called hard negatives to construct {x,y} pairs.
     - Unlike supervised learning, contrastive learning benefits from larger batch sizes and extended training periods. Contrastive learning also benefits from deeper and broader networks, just as supervised learning does.
+    - One way of performing contrastive learning is via predicting any unobserved or hidden part (or property) of the input from any observed or unhidden part of the input. For example
+      -  Next Word Prediction Task i.e. Predict W(t) | W(t-1), W(t-2), ...
+      -  Fill in the Blank Task i.e. Predict W(t) | W(t-1),W(t-2).... , W(t+1),W(t+2) ……
+      -  Predict W(t-1),W(t-2).... , W(t+1),W(t+2) …… | W(t)
 
  
 
