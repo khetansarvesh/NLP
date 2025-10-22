@@ -35,7 +35,7 @@ So how to convert words into numeric representations?? It can be one of the foll
     - Unlike supervised learning, contrastive learning benefits from larger batch sizes and extended training periods. Contrastive learning also benefits from deeper and broader networks, just as supervised learning does.
     - One way of performing contrastive learning is via predicting any unobserved or hidden part (or property) of the input from any observed or unhidden part of the input. For example
       -  Next Word Prediction Task i.e. Predict W(t) | W(t-1), W(t-2), ...
-      -  Fill in the Blank Task i.e. Predict W(t) | W(t-1),W(t-2).... , W(t+1),W(t+2) ……
+      -  [Fill in the Blank Task i.e. Predict W(t) | W(t-1),W(t-2).... , W(t+1),W(t+2) ……](https://khetansarvesh.medium.com/fill-in-the-blank-task-a60382210095)
       -  Predict W(t-1),W(t-2).... , W(t+1),W(t+2) …… | W(t)
 
  
