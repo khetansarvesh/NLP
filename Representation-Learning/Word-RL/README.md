@@ -39,12 +39,4 @@ So how to convert words into numeric representations?? It can be one of the foll
     - One way of performing contrastive learning is via predicting any unobserved or hidden part (or property) of the input from any observed or unhidden part of the input. For example
       -  [Next Word Prediction Task i.e. Predict W(t) | W(t-1), W(t-2), ...](https://khetansarvesh.medium.com/building-large-language-models-llms-6a67af3cc3c8)
       -  [Fill in the Blank Task i.e. Predict W(t) | W(t-1),W(t-2).... , W(t+1),W(t+2) ……](https://khetansarvesh.medium.com/fill-in-the-blank-task-a60382210095)
-      -  Predict W(t-1),W(t-2).... , W(t+1),W(t+2) …… | W(t)
-
- 
-
-
-
-
-
-
+      -  [Predict W(t-1),W(t-2).... , W(t+1),W(t+2) …… | W(t)](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Word-RL/predict_surrouding_context.md)
