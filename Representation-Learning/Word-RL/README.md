@@ -19,7 +19,7 @@ Now once we have got the numerical representation of all the words present in th
 So how to convert words into numeric representations?? It can be one of the following : 
 
 ### $\color{yellow}{M1:\ Non\ Modelling\ Way\ (Brute\ Force\ Approach)\}$
-[One Hot Encoding (Gives non-contextual word embeddings)]()
+[One Hot Encoding (Gives non-contextual word embeddings)](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Word-RL/OHE.pdf)
 - Problem with OHE is that if your corpus has say 1000 vocabulary then numerical representation of each word will be a 1*1000 vector which is a very huge and highly sparse vector.
 - Having 1000000 vocabulary is very common nowadays and hence you can clearly see the amount of memory wastage due to OHE representation. Hence it is a bad way of numerical representation.
 - Code implementation of OHE can be found [here](https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Word-RL/One_Hot_Encoding.ipynb).
