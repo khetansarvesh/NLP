@@ -6,3 +6,4 @@
 
 - Below we will see FFNN MLM - this was given a special name called Skip Gram (SG) model [Word2vec]
 
+<img width=500 src="https://github.com/khetansarvesh/NLP/blob/main/Representation-Learning/Word-RL/skipgram.png">
