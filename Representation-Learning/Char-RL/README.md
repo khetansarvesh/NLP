@@ -4,7 +4,7 @@
 Given a paragraph (corpus) you need to extract all the unique characters in that corpus is what is called character tokenization or character segmentation.
 
 
-## $\color{cyan}{Step2:\ Character\ Tokenization}$
+## $\color{cyan}{Step2:\ Character\ Representation}$
 Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters
 
 ### $\color{yellow}{Non\ Neural\ Character\ Embeddings}$
