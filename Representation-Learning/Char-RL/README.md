@@ -5,7 +5,7 @@ Given a paragraph (corpus) you need to extract all the unique characters in that
 
 
 ## $\color{cyan}{Step2:\ Character\ Tokenization}$
-  - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters
+Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters
 
 ### $\color{yellow}{Non\ Neural\ Character\ Embeddings}$
   - One Hot Encoding (non contextual)
