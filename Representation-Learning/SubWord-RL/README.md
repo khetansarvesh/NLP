@@ -1,21 +1,18 @@
 # Subword Embedding / Subword Representation Learning / Subword Vectors / Subword Level Modelling
 
-  - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords.
-  - The challenge here is to convert the given corpus made up of words to sentences made up of subwords hence you need to find the “important” subwords.
-  - Algorithms which can do this are called subword tokenizers and the process is called subword modeling. There are many techniques to identify what are the important subwords in the corpus, one of them is the [Byte Pair Encoding (BPE)](https://vizuara.substack.com/p/understanding-byte-pair-encoding) technique.
+## $\color{cyan}{Step1:\ Subword\ Tokenization}$
+Given a paragraph (corpus) you need to extract all the unique subwords in that corpus is what is called subword tokenization or Subword segmentation.The challenge here is to convert the given corpus made up of words to sentences made up of subwords hence you need to find the “important” subwords. Algorithms which can do this are called subword tokenizers and the process is called subword modeling. There are many techniques to identify what are the important subwords in the corpus, one of them is the [Byte Pair Encoding (BPE)](https://vizuara.substack.com/p/understanding-byte-pair-encoding) technique.
 
 
-  
+## $\color{cyan}{Step2:\ Subword\ Representation}$
+Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on subwords.
 
-
-Once we get these subwords it is exactly the same as how we got word embeddings and character embeddings.
-
-# $\color{cyan}{Non\ Neural\ Subword\ Embeddings}$
+### $\color{yellow}{Non\ Neural\ Subword\ Embeddings}$
   - One Hot Encoding (non contextual)
 
-# $\color{cyan}{Neural\ Subword\ Embeddings}$
+### $\color{yellow}{Neural\ Subword\ Embeddings}$
 
-## $\color{yellow}{Next\ Subword\ Prediction\ (NSP)\ Task}$
+#### $\color{yellow}{Next\ Subword\ Prediction\ (NSP)\ Task}$
 Next word prediction is a right extreme and next character prediction is the left extreme so obvious researchers came up with the idea of the intermediate that is subword. These are called subword language models. Once you have converted words into subwords, exactly as we saw in the next word prediction, just now instead of passing words as inputs you will pass subwords as inputs. We can use any of the following sequence models to solve this problem 
 - <ins> N Gram Modelling </ins>
 - <ins> FFN LM </ins> : Fasttext 
@@ -39,7 +36,7 @@ Next word prediction is a right extreme and next character prediction is the lef
   - Glam by GOOGLE
 
 
-## $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
+#### $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
 - When this problem is seen as a time series problem then we can use any of the following sequence models to solve this problem
   - RNN MLM
   - BiRNN MLM
