@@ -1,6 +1,7 @@
 # Character Embedding / Character Representations Learning / Character Vectors / Character Level Modelling
 
 ## $\color{cyan}{Step1:\ Character\ Tokenization}$
+Given a paragraph (corpus) you need to extract all the unique characters in that corpus is what is called character tokenization or character segmentation.
 
 
 ## $\color{cyan}{Step2:\ Character\ Tokenization}$
