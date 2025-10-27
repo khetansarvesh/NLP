@@ -1,13 +1,17 @@
 # Character Embedding / Character Representations Learning / Character Vectors / Character Level Modelling
 
+## $\color{cyan}{Step1:\ Character\ Tokenization}$
+
+
+## $\color{cyan}{Step2:\ Character\ Tokenization}$
   - Exactly same methods as we saw in Word representation just that instead of applying those methods on words we apply those methods on Characters
 
-# $\color{cyan}{Non\ Neural\ Character\ Embeddings}$
+### $\color{yellow}{Non\ Neural\ Character\ Embeddings}$
   - One Hot Encoding (non contextual)
 
-# $\color{cyan}{Neural\ Character\ Embeddings}$
+#### $\color{yellow}{Neural\ Character\ Embeddings}$
 
-## $\color{yellow}{Next\ Character\ Prediction\ Task}$
+##### $\color{red}{Next\ Character\ Prediction\ Task}$
 Models which are used to do this task are also called language models. To differentiate these from the language models seen in word embedding, we call these ‘Character Language Models’ and those ‘Words Language Models
 
 The following algorithms give non-contextual character embeddings
