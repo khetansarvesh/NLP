@@ -12,7 +12,7 @@ Exactly same methods as we saw in Word representation just that instead of apply
 
 ### $\color{yellow}{Neural\ Subword\ Embeddings}$
 
-#### $\color{yellow}{Next\ Subword\ Prediction\ (NSP)\ Task}$
+#### $\color{red}{Next\ Subword\ Prediction\ (NSP)\ Task}$
 Next word prediction is a right extreme and next character prediction is the left extreme so obvious researchers came up with the idea of the intermediate that is subword. These are called subword language models. Once you have converted words into subwords, exactly as we saw in the next word prediction, just now instead of passing words as inputs you will pass subwords as inputs. We can use any of the following sequence models to solve this problem 
 - <ins> N Gram Modelling </ins>
 - <ins> FFN LM </ins> : Fasttext 
@@ -36,7 +36,7 @@ Next word prediction is a right extreme and next character prediction is the lef
   - Glam by GOOGLE
 
 
-#### $\color{yellow}{Fill\ in\ the\ Blank\ Task}$
+#### $\color{red}{Fill\ in\ the\ Blank\ Task}$
 - When this problem is seen as a time series problem then we can use any of the following sequence models to solve this problem
   - RNN MLM
   - BiRNN MLM
