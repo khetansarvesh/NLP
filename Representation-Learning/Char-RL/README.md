@@ -9,7 +9,7 @@
 ### $\color{yellow}{Non\ Neural\ Character\ Embeddings}$
   - One Hot Encoding (non contextual)
 
-#### $\color{yellow}{Neural\ Character\ Embeddings}$
+### $\color{yellow}{Neural\ Character\ Embeddings}$
 
 ##### $\color{red}{Next\ Character\ Prediction\ Task}$
 Models which are used to do this task are also called language models. To differentiate these from the language models seen in word embedding, we call these ‘Character Language Models’ and those ‘Words Language Models
