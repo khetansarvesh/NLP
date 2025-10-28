@@ -5,7 +5,7 @@ Given a paragraph (corpus) you need to extract all the unique subwords in that c
 
 Algorithms which can do this are called subword tokenizers and the process is called subword modeling. There are many techniques to identify what are the important subwords in the corpus, one of them is the [Byte Pair Encoding (BPE)](https://vizuara.substack.com/p/understanding-byte-pair-encoding) technique.
 
-There are multiple libraries that have implemented BPE but the most used ones are via tiktoken and Hugging Face Transformers library.
+There are multiple libraries that have implemented BPE but the most used ones are via tiktoken and Hugging Face Transformers library. You can learn how to code BPE from scratch [here](https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02/05_bpe-from-scratch).
 
 
 ## $\color{cyan}{Step2:\ Subword\ Representation}$
