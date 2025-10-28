@@ -1,7 +1,11 @@
 # Subword Embedding / Subword Representation Learning / Subword Vectors / Subword Level Modelling
 
 ## $\color{cyan}{Step1:\ Subword\ Tokenization}$
-Given a paragraph (corpus) you need to extract all the unique subwords in that corpus is what is called subword tokenization or Subword segmentation.The challenge here is to convert the given corpus made up of words to sentences made up of subwords hence you need to find the “important” subwords. Algorithms which can do this are called subword tokenizers and the process is called subword modeling. There are many techniques to identify what are the important subwords in the corpus, one of them is the [Byte Pair Encoding (BPE)](https://vizuara.substack.com/p/understanding-byte-pair-encoding) technique.
+Given a paragraph (corpus) you need to extract all the unique subwords in that corpus is what is called subword tokenization or Subword segmentation.The challenge here is to convert the given corpus made up of words to sentences made up of subwords hence you need to find the “important” subwords. 
+
+Algorithms which can do this are called subword tokenizers and the process is called subword modeling. There are many techniques to identify what are the important subwords in the corpus, one of them is the [Byte Pair Encoding (BPE)](https://vizuara.substack.com/p/understanding-byte-pair-encoding) technique.
+
+There are multiple libraries that have implemented BPE but the most used ones are via tiktoken and Hugging Face Transformers library.
 
 
 ## $\color{cyan}{Step2:\ Subword\ Representation}$
