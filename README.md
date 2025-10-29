@@ -68,10 +68,10 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 # $\color{cyan}{LLM\ Systems\}$
 With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
-- Single LLM System
+- [Single LLM System](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
 - Multi LLM System
-  - LLM Workflows
-  - LLM Agents
+  - [LLM Workflows](https://github.com/khetansarvesh/NLP/blob/main/llm_workflow.md)
+  - [LLM Agents](https://github.com/khetansarvesh/NLP/blob/main/llm_agents.md)
 
 
 
