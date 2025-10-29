@@ -66,7 +66,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Agents\}$
+# $\color{cyan}{LLM\ Systems\}$
 With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem.
 
 ### 1. <ins> Text-2-Text Retrival / Information Retrieval (IR) </ins>
