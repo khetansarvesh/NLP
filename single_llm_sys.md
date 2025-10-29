@@ -18,4 +18,9 @@
 
 <ins> Solution </ins> : 
    - You can simply pass the input question and these 10 documents in an LLM to extract exact answer of the query
+   - You can improve this system by using techniques like
+      - 0 shot prompting / Learning
+      - 1 shot prompting / learning
+      - Few shot Prompting / Learning
+      - Dynamic Few Shots prompting / Learning
 
