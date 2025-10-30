@@ -71,8 +71,4 @@ With foundation models that are able to do multiple tasks, you just need to do [
 - [Single LLM System](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
 - Multi LLM System
   - [LLM Workflows](https://github.com/khetansarvesh/NLP/blob/main/llm_workflow.md) : They follow static path
-  - LLM Agents : They follow dynamic path. One way of determining this dynamic path is via using a planner agent. To learn how to design a good planner agent let's build a Deep Research Agent. There are many frameworks that you can use to build this, few good ones are :
-    - Agno
-    - ⁠AutoGen (allows for communication between agents)
-    - Langraph
-    - CrewAI
+  - LLM Agents : They follow dynamic path. One way of determining this dynamic path is via using a planner agent. To learn how to design a good planner agent let's build a Deep Research Agent. There are many frameworks that you can use to build this, few good ones are [Agno](https://github.com/agno-agi/agno) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
