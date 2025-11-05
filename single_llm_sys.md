@@ -5,6 +5,9 @@
 
 <ins> Solution (RAG Based System) </ins> : 
    - Divide the text documents into chunks. There are many ways to do chunking, which method to choose depends on what problem statement is at hand.
+      - Sentence Level Chunking
+      - Paragraph Level Chunking
+      - Sliding Window Based Chunking : in about two methods you can get chunk of different sizes since sentences / paragraphs can be of different sizes but here in this method you get all the chunks of same size cause you set a hyperparamter 'chunk_size' in this which determines the window of the chunk. 
    - Create vector embeddings (of both input question + text documents) and store them in a vector database (also called index). Choosing a right embedding model is crutial.
    - Now calculate similarity (query , Doc1) , (query , Doc2), ... 
    - Perform ranking based on how similar the document is wrt the input query. But instead of similarity nowadays people are using rerankers like [Jina AI](https://jina.ai/news/jina-reranker-v3-0-6b-listwise-reranker-for-sota-multilingual-retrieval/). Here is [why](https://www.linkedin.com/posts/anshuizme_chatgpt-rag-ai-activity-7380217740675993600-pVVp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYXQ0B7fczwMR-uxnuOJaiYRS4N5_AkqA) rerankers are important.
