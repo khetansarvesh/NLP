@@ -17,11 +17,7 @@
    - Now calculate similarity (query , Doc1) , (query , Doc2), ... 
    - Perform ranking based on how similar the document is wrt the input query. But instead of similarity nowadays people are using rerankers like [Jina AI](https://jina.ai/news/jina-reranker-v3-0-6b-listwise-reranker-for-sota-multilingual-retrieval/). Here is [why](https://www.linkedin.com/posts/anshuizme_chatgpt-rag-ai-activity-7380217740675993600-pVVp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYXQ0B7fczwMR-uxnuOJaiYRS4N5_AkqA) rerankers are important.
    - Output top K similar documents
-   - You can improve this system by using techniques like
-      - 0 shot prompting / Learning
-      - 1 shot prompting / learning
-      - Few shot Prompting / Learning
-      - Dynamic Few Shots prompting / Learning
+
 
 
 # 2. <ins> Factoid QA / Reasoning QA / Information Extraction (IE) </ins>
@@ -30,3 +26,8 @@
 
 <ins> Solution </ins> : 
    - You can simply pass the input question and these 10 documents in an LLM to extract exact answer of the query
+   - You can improve this system by using techniques like
+      - 0 shot prompting / Learning
+      - 1 shot prompting / learning
+      - Few shot Prompting / Learning
+      - Dynamic Few Shots prompting / Learning
