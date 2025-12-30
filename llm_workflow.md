@@ -1,7 +1,3 @@
-# $\color{red}{5.Evaluator\ Optimizer\  Workflow }$
-In the evaluator-optimizer workflow, one LLM call generates a response while another provides evaluation and feedback in a loop.
-<img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/eval_optimizer_workflow.png">
-
 ### $\color{blue}{ 5.1.\ ReAct\ (Reason\ -\ Action)\ :\ running\ tools\ in\ loop\}$
 ```python
 <System> … </System>
