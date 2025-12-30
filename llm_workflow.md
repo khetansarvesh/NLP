@@ -24,8 +24,6 @@
 <Final_Answer> India has a higher population density (419.6 people/km²) than Japan (330.7 people/km²). </Final_Answer>
 ```
 
-### $\color{blue}{5.2.\ ReAct\ (Reason\ -\ Action)\ with\ RAG\ based\ tool\ calling}\$
-
 ### $\color{blue}{5.3.\ CodeAct\}$
 ```python
 <System> You are a Python programmer. Write code to solve tasks... </System>
@@ -44,5 +42,3 @@
 The weather in Tokyo is sunny at 22°C.
 </Answer>
 ```
-
-### $\color{blue}{5.4.\ SERA\}$
