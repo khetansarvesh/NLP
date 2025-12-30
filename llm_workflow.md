@@ -1,8 +1,3 @@
-# $\color{red}{4.Orchestrator\ Workers\  Workflow }$
-In the orchestrator-workers workflow, a central LLM dynamically breaks down tasks, delegates them to worker LLMs, and synthesizes their results.
-
-<img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/orchestrator_worker_workflow.png">
-
 # $\color{red}{5.Evaluator\ Optimizer\  Workflow }$
 In the evaluator-optimizer workflow, one LLM call generates a response while another provides evaluation and feedback in a loop.
 <img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/eval_optimizer_workflow.png">
