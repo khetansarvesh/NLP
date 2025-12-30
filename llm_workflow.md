@@ -1,7 +1,3 @@
-# $\color{red}{3.Parallization\  Workflow }$
-LLMs can sometimes work simultaneously on a task and have their outputs aggregated programmatically.
-<img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/parallization.png">
-
 # $\color{red}{4.Orchestrator\ Workers\  Workflow }$
 In the orchestrator-workers workflow, a central LLM dynamically breaks down tasks, delegates them to worker LLMs, and synthesizes their results.
 
