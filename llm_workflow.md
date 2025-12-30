@@ -1,6 +1,6 @@
 Workflows are systems where LLMs and tools are orchestrated through predefined static paths. There are many differnt syles of workflows possible, few prominent onces are !
 
-# $\color{red}{Prompt\ Chaining\  Workflow }$
+# $\color{red}{1.Prompt\ Chaining\  Workflow }$
 <img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/prompt_chaining_workflow.png">
 
 # $\color{red}{Routing\  Workflow }$
