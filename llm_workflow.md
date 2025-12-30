@@ -65,3 +65,8 @@ In the evaluator-optimizer workflow, one LLM call generates a response while ano
 The weather in Tokyo is sunny at 22°C.
 </Answer>
 '''
+
+### ReAct (Reason - Action) with RAG based tool calling
+
+
+### SERA
