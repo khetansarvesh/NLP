@@ -1,12 +1,3 @@
-Workflows are systems where LLMs and tools are orchestrated through predefined static paths. There are many differnt syles of workflows possible, few prominent onces are !
-
-# $\color{red}{1.Prompt\ Chaining\  Workflow }$
-<img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/prompt_chaining_workflow.png">
-
-# $\color{red}{2.Routing\  Workflow }$
-Routing classifies an input and directs it to a specialized followup task. This workflow allows for separation of concerns, and building more specialized prompts. Without this workflow, optimizing for one kind of input can hurt performance on other inputs.
-<img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/routing_workflow.png">
-
 # $\color{red}{3.Parallization\  Workflow }$
 LLMs can sometimes work simultaneously on a task and have their outputs aggregated programmatically.
 <img width=800 src="https://github.com/khetansarvesh/NLP/blob/main/imgs/parallization.png">
