@@ -11,7 +11,7 @@ So since we have so many methods to convert our corpus into numerical representa
 - In languages like French and Arabic, though there are spaces but if say we have two words in English “so said” then it is just one word in these languages, hence word embedding might not work well with these languages
 
 
-
+Finally before you start building your own LLLM from scratch, I would recommend reading this amazing [blog from HF](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook) which help you understand how to find the right architecture and how are big scalable models built !!
 
 
 
