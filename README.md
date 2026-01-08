@@ -61,12 +61,23 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-
-
-
 # $\color{cyan}{LLM\ Systems\}$
+
 With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
+
+When you dont give llms the access of tools it's not an agent
 - [Single LLM System](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
-- Multi LLM System
+
+
+# $\color{cyan}{LLM\ Agents\}$
+When you give llms the access of tools its called an agent
+
+- Single Agentic System
+  - Parallel Tool Calling Agents
+  - Sequential Tool Calling Agents
+    - ReAct
+    - CodeAct  
+
+- Multi-Agentic Systems
   - [LLM Workflows](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
   - [LLM Agents](https://khetansarvesh.medium.com/llm-agents-fec2ef4f049a)
