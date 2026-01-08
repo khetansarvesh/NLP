@@ -63,13 +63,11 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 # $\color{cyan}{LLM\ Workflow\ --LLMs\ without\ tool\ access\}$
 - With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. 
-- Since it does not have access to tools, llm is not capable to fetch data from some other place to answer the query. Hence it has to rely
-  - A. On its on internal knowledge that it was trained on or
-  - B. On the context that you give the llm to answer the query. If this context is huge then it becomes really important how your llm goes through this, there are many ways.
-    - [RAG based](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
-    - Linear Loop Based
-    - Non Linear Loop Based
-    - Recursion Based
+- Since it does not have access to tools, llm is not capable to fetch data from some other place to answer the query. Hence it has to rely on its on internal knowledge that it was trained on or on the context that you give the llm to answer the query. If this context is huge then it becomes really important how your llm goes through this, there are many ways.
+  - [RAG based](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
+  - Linear Loop Based
+  - Non Linear Loop Based
+  - Recursion Based
 
 
 
