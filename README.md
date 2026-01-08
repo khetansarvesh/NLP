@@ -61,12 +61,11 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Systems\}$
+# $\color{cyan}{LLM\ Workflow\}$
+When you dont give llms the access of tools it's not an agent, in such systems to answer a query you either rely on llm's internal knowledge or you pass the context to the llm using which it has to answer the query. Since it does not have access to tools, llm is not capable to fetch data from some other place to answer the query. More details [here](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
 
-With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
-When you dont give llms the access of tools it's not an agent, in such systems to answer a query you either rely on llm's internal knowledge or you pass the context to the llm using which it has to answer the query. Since it does not have access to tools, llm is not capable to fetch data from some other place to answer the query
-- [Single LLM System](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md)
+
 
 
 # $\color{cyan}{LLM\ Agents\}$
@@ -77,3 +76,6 @@ When you give llms the access of tools its called an agent
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
 - [Multi-Agentic Systems](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
+
+With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
+
