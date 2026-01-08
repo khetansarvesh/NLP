@@ -31,5 +31,3 @@
       - 1 shot prompting / learning
       - Few shot Prompting / Learning
       - Dynamic Few Shots prompting / Learning
-    
-# 3. [Sinlge LLM System](https://khetansarvesh.medium.com/single-llm-systems-bc2ae6b1c060?postPublishedType=initial)
