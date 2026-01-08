@@ -79,4 +79,3 @@ When you give llms the access of tools its called an agent
     - CodeAct  
 
 - [Multi-Agentic Systems](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
-  - [LLM Agents](https://khetansarvesh.medium.com/llm-agents-fec2ef4f049a)
