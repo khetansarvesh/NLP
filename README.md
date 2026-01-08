@@ -72,10 +72,8 @@ When you dont give llms the access of tools it's not an agent
 # $\color{cyan}{LLM\ Agents\}$
 When you give llms the access of tools its called an agent
 
-- Single Agentic System
-  - Parallel Tool Calling Agents
-  - Sequential Tool Calling Agents
-    - ReAct
-    - CodeAct  
+- Single Agentic System : a single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
+  - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
+  - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
 - [Multi-Agentic Systems](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
