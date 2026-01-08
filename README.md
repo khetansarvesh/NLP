@@ -80,8 +80,9 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
-- [Multi-Agentic Systems](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
-  - Search / Deep-Research Agents 
+- Multi-Agentic Systems
+  - [Quick Answer Multi-Agents] (https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
+  - Search / Deep-Research Multi-Agents 
 
  There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
