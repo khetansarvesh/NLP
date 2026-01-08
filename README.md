@@ -61,7 +61,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Workflow\}$
+# $\color{cyan}{LLM\ Workflow\ --LLMs\ without\ tool\ access\}$
 - With foundation models that are able to do multiple tasks, you just need to do [prompting](https://www.promptingguide.ai/) to solve a single downstream task problem. 
 - When you dont give llms tool access it's not an agent. Since it does not have access to tools, llm is not capable to fetch data from some other place to answer the query. Hence it has to rely
   - A. On its on internal knowledge that it was trained on or
@@ -75,7 +75,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Agents\}$
+# $\color{cyan}{LLM\ Agents\ --LLMs\ with\ tool\ access\}$
 When you give llms the access of tools its called an agent
 
 - Single Agentic System : a single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
