@@ -62,9 +62,10 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 # $\color{cyan}{LLM\ Workflow\ --LLMs\ without\ tool\ access\}$
-- Since llm doesn't have tool access, it is not capable of fetching live data 'on its own' using apis to answer the query.
-- Hence it has to rely on its own internal knowledge that it was trained on or on the context that 'you provide' the llm to answer the query. If this context is huge then it becomes really important how your llm goes through this context, there are many ways, more details available [here](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md).
-- Once you have the right context, using efficient [prompting](https://www.promptingguide.ai/) techinques also becomes really important.
+- Since llm doesn't have tool access, it is not capable of fetching data 'on its own' to answer the query.
+- Hence to answer the queries, it has two methods :  
+  - A. use its own internal knowledge that it was trained on (this can lead to wrong answers cause data that it was trained on is now outdated)
+  - B. use the context that 'user provides' to the llm. If this context is huge then it becomes really important how your llm goes through this context, there are many ways, more details available [here](https://github.com/khetansarvesh/NLP/blob/main/single_llm_sys.md).Once you have the right context, using efficient [prompting](https://www.promptingguide.ai/) techinques also becomes really important.
 
 
 
