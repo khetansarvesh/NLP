@@ -65,7 +65,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 - Since llm doesn't have tool access, it is not capable of fetching data 'on its own' to answer the query.
 - Hence to answer the queries, it has two methods :  
   - A. use its own internal knowledge that it was trained on (this can lead to wrong answers cause data that it was trained on is now outdated)
-  - B. use the context that 'user provides' to the llm. If this context is huge then it becomes really important how your llm goes through this context, there are many ways, more details available [here]().
+  - B. use the context that 'user provides' to the llm. If this context is huge then it becomes really important how your llm goes through this context, there are many ways, more details available [here](https://khetansarvesh.medium.com/large-context-traversal-8812af72b5f9).
 - Once you have the right context, using efficient [prompting](https://www.promptingguide.ai/) techinques also becomes really important.
   - Use dynamic few shots
   - Use dynamic prompts 
@@ -83,7 +83,7 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
 
 - Multi-Agentic Systems
   - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
-  - [Dynamic Workflow Agents - Search / Deep-Research Multi-Agents]()
+  - [Dynamic Workflow Agents - Search / Deep-Research Multi-Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32)
 
  There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
