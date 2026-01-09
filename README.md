@@ -75,7 +75,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 # $\color{cyan}{LLM\ Agents\ --LLMs\ with\ tool\ access\}$
-Now since we have given our LLMs access to tools, it can use these tools to get real-time context. Now these tools can get context which is structed (eg json) / un-structured (eg web-search tool).
+Now since we have given our LLMs access to tools, it can use these tools to get real-time context. Now these tools can get context which is structed (eg twitter tool which will return json format) / un-structured (eg web-search tool).
 
 - Single Agentic System : a single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
