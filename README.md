@@ -61,7 +61,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Workflow\ --LLMs\ without\ tool\ access\}$
+# $\color{cyan}{Non\ Agentic\ LLM\ Systems\ --LLMs\ without\ tool\ access\}$
 - Since llm doesn't have tool access, it is not capable of fetching data 'on its own' to answer the query.
 - Hence to answer the queries, it has two methods :  
   - A. use its own internal knowledge that it was trained on (this can lead to wrong answers cause data that it was trained on is now outdated)
@@ -82,8 +82,8 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
 - Multi-Agentic Systems
-  - [Quick Answer Multi-Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
-  - [Search / Deep-Research Multi-Agents]()
+  - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
+  - [Dynamic Workflow Agents - Search / Deep-Research Multi-Agents]()
 
  There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
