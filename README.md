@@ -1,4 +1,4 @@
-# $\color{cyan}{Representation\ Learning\  (pretraining) }$
+# $\color{cyan}{1.\ Representation\ Learning\  (pretraining) }$
 We need to represent language mathematically i.e. given a corpus you need to convert this corpus into its numerical form. This mathematical representation is called an embedding/context and the process is called representation learning. Why do this?? Because computers understand only numbers and not texts. We can do this in several ways:
 - Via [Sentence Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Sentence-RL)
 - Via [Word Embedding](https://github.com/khetansarvesh/NLP/tree/main/Representation-Learning/Word-RL)
@@ -16,8 +16,8 @@ Finally before you start building your own LLLM from scratch, I would recommend 
 
 
 
-# $\color{cyan}{Downstream\ NLP\  (posttraining) }$
-## $\color{yellow}{A.\ Supervised\ Fine\ Tuning\ (SFT) }$
+# $\color{cyan}{2.\ Downstream\ NLP\  (posttraining) }$
+## $\color{red}{2.A.\ Supervised\ Fine\ Tuning\ (SFT) }$
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
   - [Sentence level classification Tasks](https://khetansarvesh.medium.com/sentimental-analysis-using-deep-learning-3a2dee80cf77)
   - <ins> Token / Word level classification Tasks (also called Sequence Labeling/ Learning/ Tagging Task) </ins> : 
@@ -46,7 +46,7 @@ Finally before you start building your own LLLM from scratch, I would recommend 
 
 
 
-## $\color{yellow}{B.\ Reinforcement\ Learning\ Based\ Fine\ Tuning}$
+## $\color{red}{2.B.\ Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundation model using RL. There are two ways to use RL to finetune :
 - [Manual Reward Funtion Based RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) : Here we will see how to finetune using RL if you 'can design' a good reward function for your downstream task.
 - (preferred)[Automatic Reward Function Based RL](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) : Here we will see how to finetune using RL if you 'cannot design' a good reward function for your downstream task, via the help of preference dataset. There are multiple methods to do this : 
@@ -61,7 +61,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{Non\ Agentic\ LLM\ Systems\ --LLMs\ without\ tool\ access\}$
+# $\color{cyan}{3.\ Non\ Agentic\ LLM\ Systems\ --LLMs\ without\ tool\ access\}$
 - Since llm doesn't have tool access, it is not capable of fetching data 'on its own' to answer the query.
 - Hence to answer the queries, it has two methods :  
   - A. use its own internal knowledge that it was trained on (this can lead to wrong answers cause data that it was trained on is now outdated)
@@ -74,7 +74,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{LLM\ Agents\ --LLMs\ with\ tool\ access\}$
+# $\color{cyan}{4.\ LLM\ Agents\ --LLMs\ with\ tool\ access\}$
 Now since we have given our LLMs access to tools, it can use these tools to get real-time data. You can classify tools into following broad categories : 
 - API tools (Structured Data) : These are simple tools over existing apis e.g. twitter tools which will return json format data
 - Web Tool (Unstructured Data) : Now there are ample of websites on the internet which do not provide an API to access their information hence to get information from such website we need to go to their website url and somehow get the data.
@@ -83,12 +83,12 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
 
  There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
-### $\color{red}{Single\ Agentic\ System\}$
+## $\color{red}{4.A\ Single\ Agentic\ System\}$
 A single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
-### $\color{red}{Multi\ Agentic\ System\}$
+## $\color{red}{4.B\ Multi\ Agentic\ System\}$
   - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
   - [Dynamic Workflow Agents - Search / Deep-Research Multi-Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32)
 
