@@ -75,7 +75,11 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 # $\color{cyan}{LLM\ Agents\ --LLMs\ with\ tool\ access\}$
-Now since we have given our LLMs access to tools, it can use these tools to get real-time context. Now these tools can get context which is structed (eg twitter tool which will return json format) / un-structured (eg web-search tool).
+Now since we have given our LLMs access to tools, it can use these tools to get real-time data. You can classify tools into following broad categories : 
+- API tools (Structured Data) : These are simple tools over existing apis e.g. twitter tools which will return json format data
+- Web Tool (Unstructured Data) : Now there are ample of websites on the internet which do not provide an API to access their information hence to get information from such website we need to go to their website url and somehow get the data.
+  - Web Search Tool (for Static Web Pages) : getting data from such pages is simple, its like downloading the page and using it.
+  - Web Agent Tool (for Dynamic Web Pages) : getting data from such pages is difficult and if you use download and use method then you will miss information. To understand this better read this [blog](https://yutori.com/blog/the-bitter-lesson-for-web-agents). Hence to solve this people built a [web agent](https://yutori.com/blog/introducing-navigator) which can navigate the web just like how humans do.
 
 - Single Agentic System : a single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
