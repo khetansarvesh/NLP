@@ -81,13 +81,15 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
   - Web Search Tool (for Static Web Pages) : getting data from such pages is simple, its like downloading the page and using it.
   - Web Agent Tool (for Dynamic Web Pages) : getting data from such pages is difficult and if you use download and use method then you will miss information. To understand this better read this [blog](https://yutori.com/blog/the-bitter-lesson-for-web-agents). Hence to solve this people built a [web agent](https://yutori.com/blog/introducing-navigator) which can navigate the web just like how humans do.
 
-- Single Agentic System : a single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
+ There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
+
+### $\color{red}{Single\ Agentic\ System\}$
+A single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
 
-- Multi-Agentic Systems
+### $\color{red}{Multi\ Agentic\ System\}$
   - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
   - [Dynamic Workflow Agents - Search / Deep-Research Multi-Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32)
 
- There are many frameworks that you can use to build these LLM Systems, few good ones are [DSPY](https://dspy.ai/) || [⁠AutoGen](https://github.com/microsoft/autogen) || [Langraph](https://www.langchain.com/langgraph) || [CrewAI](https://www.crewai.com/)
 
