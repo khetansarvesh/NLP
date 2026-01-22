@@ -88,6 +88,7 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
 A single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
   - [Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
   - [Sequential Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
+  - [Parallel + Sequential Tool Calling Agent]()
 
 ## $\color{red}{4.B]\ Multi\ Agentic\ System\}$
 When to use a multi-agentic system? When even after performing all the context optimization techniques that we saw for single agentic system, still we face context-rot issue. In such situations, idea is to use multiple agents with each having its own context and its own specific tools.
