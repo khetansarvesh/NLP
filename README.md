@@ -86,7 +86,7 @@ Now since we have given our LLMs access to tools, it can use these tools to get 
 
 ## $\color{red}{4.A]\ Single\ Agentic\ System\}$
 A single agentic system does not means that you do one single llm call, it just means that you just have 1 single agent but that agent can be called multiple times also.
-  - [Single Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585) : Works great for queries wherein tool_call_2 depends on tool_call_1 results.
+  - [Single Tool Calling Agent](https://khetansarvesh.medium.com/sequential-agents-56a69041e585)
   - [Mulitple Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
 
 ## $\color{red}{4.B]\ Multi\ Agentic\ System\}$
