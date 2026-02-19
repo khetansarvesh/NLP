@@ -90,7 +90,7 @@ A single agentic system does not means that you do one single llm call, it just 
   - [Mulitple Parallel Tool Calling Agent](https://khetansarvesh.medium.com/improvements-391274900710)
 
 ## $\color{red}{4.B]\ Multi\ Agentic\ System\}$
-When to use a multi-agentic system? When even after performing all the context optimization techniques that we saw for single agentic system, still we face context-rot issue. In such situations, idea is to use multiple agents with each having its own context and its own specific tools.
+When to use a multi-agentic system? When even after performing all the context optimization techniques that we saw for single agentic system, still we face context-rot issue. In such situations, idea is to use multiple agents with each having its own context and its own specific tools. For instance if we make use of web search tool a lot in our agent then it makes sense to use a multi agentic system cause web search brings in a lot of information which can cause context issue.
 
   - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210)
   - [Dynamic Workflow Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32) : these are useful for multi-hop queries (queries wherein you need answer to other smaller queries to find answer to this bigger query) wherein you need a dynamic planner
