@@ -94,7 +94,5 @@ When to use a multi-agentic system? When even after performing all the context o
 
   - [Static Workflow Agents](https://khetansarvesh.medium.com/llm-workflows-6988b7bd4210) : In such systems we have multiple agents but they follow a set workflow in which they operate
   - [Dynamic Workflow Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32) : In such systems we have multiple agents but their flow is not predecided they can follow any flow
-    - these are useful for multi-hop queries (queries wherein you need answer to other smaller queries to find answer to this bigger query) wherein you need a dynamic planner
-    - they key in building such agents is the communication between the agents, [this](https://cursor.com/blog/scaling-agents) blog from cursor shows why a flat heirarchy based communication between these agents is a bad approach.
-
-
+    - One of the biggest challenge in building such system is to tackle the communication protocal between agents, [this](https://cursor.com/blog/scaling-agents) blog from cursor explains why a planner-worker heirarchy communication protocol works best !
+    - these are useful for `multi-hop queries` (queries wherein you need answer to other smaller queries to find answer to this bigger query) / `long running queries` wherein you need a dynamic planner
