@@ -16,7 +16,7 @@ Finally before you start building your own LLLM from scratch, I would recommend 
 
 
 
-# $\color{cyan}{2.\ Downstream\ NLP\  (posttraining) }$
+# $\color{cyan}{2.\ Downstream\ NLP\  (midtraining + posttraining) }$
 
 ## $\color{red}{2.A]\ Supervised\ Fine\ Tuning\ (SFT) }$
 - Non Generative (Classification) Tasks - Natural Language Understanding (NLU) Tasks
