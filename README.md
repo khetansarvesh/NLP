@@ -50,7 +50,9 @@ Finally before you start building your own LLLM from scratch, I would recommend 
 ## $\color{red}{2.B]\ Reinforcement\ Learning\ Based\ Fine\ Tuning}$
 Now above we saw how to finetune a foundational LLM model for different downstream tasks using SFT but for all those tasks we can also finetune a foundation model using RL. There are two ways to use RL to finetune :
 - [Manual Reward Funtion Based RL](https://khetansarvesh.medium.com/llm-fine-tuning-using-rl-for-reasoning-857f9db05ba6) : Here we will see how to finetune using RL if you 'can design' a good reward function for your downstream task.
-- [Verifiable Rewards]()
+- [Verifiable Reward Based RL]() : Here we can check the output using a system and then assign it a reward e.g.
+  - In a calculator task, eg 7 * 4 and the llm outputs 28, now we can do the same operation using a calculator program and confirm the llm output was correct so the reward is 1.
+  - In coding tasks the llm output can be run using a compiler and can be checked if it performs essential function or not. If yes then you can assign reward 1 if it solves partially then you can assign partial reward, ....
 - (preferred)[Automatic Reward Function Based RL](https://khetansarvesh.medium.com/preference-alignment-0b67777fa7af) : Here we will see how to finetune using RL if you 'cannot design' a good reward function for your downstream task, via the help of preference dataset. There are multiple methods to do this : 
   - Reinforcement Learning using Human Feedback (RLHF) : trains a seperate reward model
   - (preferred) Direct Preference Optimization (DPO) : uses base LLM itself as reward model
