@@ -99,3 +99,16 @@ When to use a multi-agentic system? When even after performing all the context o
   - [Dynamic Workflow Agents](https://khetansarvesh.medium.com/search-deep-research-agents-a7b6f3ae6d32) : In such systems we have multiple agents but their flow is not predecided they can follow any flow
     - One of the biggest challenge in building such system is to tackle the communication protocal between agents, [this](https://cursor.com/blog/scaling-agents) blog from cursor explains why a planner-worker heirarchy communication protocol works best !
     - these are useful for `multi-hop queries` (queries wherein you need answer to other smaller queries to find answer to this bigger query) / `long running queries` wherein you need a dynamic planner
+   
+
+# $\color{cyan}{5.\ Evaluating\ Agents\}$
+
+
+# $\color{cyan}{6.\ Self\ Learning\ Agents\}$
+These are of two types : 
+- Self Learning Agent : Here we self learn over a benchmark i.e. already have a ground truth
+- Continuous Self Learning Agents : Here we self learn using agent traces but not one a benchmark since there are real time production traces and you don't have ground truth
+  - Generate Benchmark from traces
+  - Verifiable Continuous Self Learning : We the evaluation criterias defined while you were designing evals for your agent to assign rewards to the traces 
+
+
