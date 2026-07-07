@@ -105,10 +105,10 @@ When to use a multi-agentic system? When even after performing all the context o
 Evaluating an agent is a two step process :
 
 ## $\color{red}{5.A]\ Benchmark\ Generation}$
-In this step our aim is to come up with a set of questions (with or without answers to these questions) from production queries. There are 2 ways to reduce the productin queries
-  - Model based Reduction : questions which are answered wrong / correct but all the models are not important questions hence we can get rid of these questions
-  - Clustering via Question Similarity : cluster similar production questions and from each cluster select only top questions
-  - Combined approach
+In this step our aim is to come up with a set of questions (with or without answers to these questions) from production queries. There are 3 ways to reduce the productin queries
+  - <ins> Model based Reduction </ins> : questions which are answered wrong / correct but all the models are not important questions hence we can get rid of these questions
+  - <ins> Clustering via Question Similarity </ins> : cluster similar production questions and from each cluster select only top questions
+  - <ins> Combined approach </ins>
 
 ## $\color{red}{5.B]\ Evaluating\ on\ above\ Benchmark}$
 More information available at this link
