@@ -102,11 +102,15 @@ When to use a multi-agentic system? When even after performing all the context o
    
 
 # $\color{cyan}{5.\ Evaluating\ Agents\ /\ Eval\ Harness}$
-Evaluating an agent is a two step process : 
-- Benchmark Generation Step : In this step our aim is to come up with a set of questions (with or without answers to these questions) from production queries. There are 2 ways to reduce the productin queries
+Evaluating an agent is a two step process :
+
+## $\color{red}{5.A]\ Benchmark\ Generation}$
+In this step our aim is to come up with a set of questions (with or without answers to these questions) from production queries. There are 2 ways to reduce the productin queries
   - Model based : questions which are answered wrong / correct but all the models are not important questions hence we can get rid of these questions
   - Cluster based : cluster similar questions and from each cluster select only top questions
-- Evaluating on above benchmark
+
+## $\color{red}{5.B]\ Evaluating\ on\ above\ Benchmark}$
+More information available at this link
 
 # $\color{cyan}{6.\ Self\ Learning\ Agents\}$
 These are of two types : 
