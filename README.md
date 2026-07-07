@@ -113,7 +113,7 @@ In this step our aim is to come up with a set of questions (with or without answ
 Now when does it makes sense to not have answers to these benchmark questions ?? When the answers are frequently changing, for example in domains like finance / crypto the answers keep changing very fast and hence it does not makes sense
 
 ## $\color{red}{5.B]\ Evaluating\ on\ above\ Benchmark}$
-More information available at this link
+More information available at this [link](https://medium.com/p/a9f6e9378952?postPublishedType=initial).
 
 # $\color{cyan}{6.\ Self\ Learning\ Agents\}$
 These are of two types : 
