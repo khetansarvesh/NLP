@@ -78,7 +78,7 @@ Now above we saw how to finetune a foundational LLM model for different downstre
 
 
 
-# $\color{cyan}{4.\ LLM\ Agents\ --LLMs\ with\ tool\ access\}$
+# $\color{cyan}{4.\ LLM\ Agents\ /\ Agent\ Harness\ --LLMs\ with\ tool\ access\}$
 Now since we have given our LLMs access to tools, it can use these tools to get real-time data. You can classify tools into following broad categories : 
 - API tools (Structured Data) : These are simple tools over existing apis e.g. twitter tools which will return json format data
 - Web Tool (Unstructured Data) : Now there are ample of websites on the internet which do not provide an API to access their information hence to get information from such website we need to go to their website url and somehow get the data.
@@ -101,7 +101,7 @@ When to use a multi-agentic system? When even after performing all the context o
     - these are useful for `multi-hop queries` (queries wherein you need answer to other smaller queries to find answer to this bigger query) / `long running queries` wherein you need a dynamic planner
    
 
-# $\color{cyan}{5.\ Evaluating\ Agents\}$
+# $\color{cyan}{5.\ Evaluating\ Agents\ /\ Eval\ Harness}$
 
 
 # $\color{cyan}{6.\ Self\ Learning\ Agents\}$
