@@ -110,6 +110,8 @@ In this step our aim is to come up with a set of questions (with or without answ
   - <ins> Clustering via Question Similarity </ins> : cluster similar production questions and from each cluster select only top questions
   - <ins> Combined approach </ins>
 
+Now when does it makes sense to not have answers to these benchmark questions ?? When the answers are frequently changing, for example in domains like finance / crypto the answers keep changing very fast and hence it does not makes sense
+
 ## $\color{red}{5.B]\ Evaluating\ on\ above\ Benchmark}$
 More information available at this link
 
